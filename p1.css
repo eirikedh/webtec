@@ -1,0 +1,79 @@
+html {
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+	}
+
+body {
+	background-color: #f2f2f2;
+	}
+
+h1 {
+	font-family: "Trebuchet MS", Helvetica, sans-serif; "Times New Roman", Times, serif;
+	color:black;
+	text-align: center;
+	}
+
+h2 {
+	font-family: "Trebuchet MS", Helvetica, sans-serif; "Times New Roman", Times, serif;
+	color:black;
+	text-align: center;
+	}
+
+h3 {
+  font-family: "Trebuchet MS", Helvetica, sans-serif; "Times New Roman", Times, serif;
+  text-align: center;
+  }
+
+
+h6 {
+	font-family: "Trebuchet MS", Helvetica, sans-serif; "Times New Roman", Times, serif;
+	color: darkgrey;
+  text-align: center;
+	}
+
+
+p {
+	font-family: "Georgia", serif; "Verdana";
+  line-height: 140%;
+  margin-left: 10%;
+  margin-right: 10%;
+	}
+
+hr {
+  width: 100%;
+  }
+
+img {
+  width: 60%;
+  margin-left: 20%;
+  }
+
+ol > ol > li {
+  padding: 1%;
+  }
+
+li {
+  padding: 2%;
+  margin-left: 10%;
+  margin-right: 10%;
+  }
+
+
+.clientname {
+  font-family: "Trebuchet MS", Helvetica, sans-serif; "Times New Roman", Times, serif;
+  text-align: center;
+  padding-bottom: 1px;
+  }
+
+.title {
+  font-weight: bold;
+  }
+
+#ulpreferences {
+  line-height: 150%;
+  }
+
+#foot {
+  text-align: left;
+  }
