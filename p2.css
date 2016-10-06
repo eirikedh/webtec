@@ -59,6 +59,9 @@ li {
   margin-right: 10%;
   }
 
+th, td {
+      border: 1px solid black;
+  }
 
 .clientname {
   font-family: "Trebuchet MS", Helvetica, sans-serif; "Times New Roman", Times, serif;
