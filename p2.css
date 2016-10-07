@@ -83,11 +83,9 @@ table {
   }
 
 #produkter {
-	width: 30%;
-	display:inline-block;
+	width:30%;
 	margin-left: auto;
 	margin-right: auto;
-	text-align:center;
   }
 
 .clientname {
