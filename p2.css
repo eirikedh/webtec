@@ -9,32 +9,32 @@ body {
 	}
 
 h1 {
-	font-family: "Trebuchet MS", Helvetica, sans-serif; "Times New Roman", Times, serif;
-	color:black;
+	font-family: "Trebuchet MS", Helvetica, sans-serif; 
+	color: #2f4f4f;
 	text-align: center;
 	}
 
 h2 {
-	font-family: "Trebuchet MS", Helvetica, sans-serif; "Times New Roman", Times, serif;
-	color:black;
+	font-family: "Trebuchet MS", Helvetica, sans-serif; 
+	color: #2f4f4f;
 	text-align: center;
 	}
 
 h3 {
-  font-family: "Trebuchet MS", Helvetica, sans-serif; "Times New Roman", Times, serif;
+  font-family: "Trebuchet MS", Helvetica, sans-serif; 
   text-align: center;
   }
 
 
 h6 {
-	font-family: "Trebuchet MS", Helvetica, sans-serif; "Times New Roman", Times, serif;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
 	color: darkgrey;
   text-align: center;
 	}
 
 
 p {
-	font-family: "Georgia", serif; "Verdana";
+	font-family: "Georgia", serif;
   line-height: 140%;
   margin-left: 10%;
   margin-right: 10%;
@@ -88,7 +88,7 @@ table {
   }
 
 .clientname {
-  font-family: "Trebuchet MS", Helvetica, sans-serif; "Times New Roman", Times, serif;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
   text-align: center;
   padding-bottom: 1px;
   }
