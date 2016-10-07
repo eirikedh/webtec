@@ -61,7 +61,11 @@ li {
 
 th, td {
       border: 1px solid black;
+      line-height: 150%;
   }
+td:last-child{
+      width: 6%;
+}
 
 #strukturbilde {
 	width: 600px;
