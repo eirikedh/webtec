@@ -46,8 +46,10 @@ hr {
 
 img {
 	width: 30%;
-	margin-left: 40%;
-
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+	
   }
 
 ol > ol > li {
@@ -76,6 +78,9 @@ td:last-child{
 	margin-top: 5%;
   }
 
+#produkth {
+	float:right;
+  }
 
 .clientname {
   font-family: "Trebuchet MS", Helvetica, sans-serif; "Times New Roman", Times, serif;
