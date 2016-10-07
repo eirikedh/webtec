@@ -46,10 +46,9 @@ hr {
 
 img {
 	width: 30%;
-	display:inline-block;
+	display:block;
 	margin-left: auto;
 	margin-right: auto;
-	text-align:center;
 	
   }
 
@@ -83,7 +82,13 @@ table {
 	margin-top: 5%;
   }
 
-
+#produkter {
+	width: 30%;
+	display:inline-block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align:center;
+  }
 
 .clientname {
   font-family: "Trebuchet MS", Helvetica, sans-serif; "Times New Roman", Times, serif;
