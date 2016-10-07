@@ -46,6 +46,7 @@ hr {
 
 img {
 	width: 30%;
+	display:block;
 	margin-left: auto;
 	margin-right: auto;
 
@@ -67,6 +68,7 @@ th, td {
 #strukturbilde {
 	width: 600px;
 	height: 400px;
+	display:block;
 	margin-left: auto;
 	margin-right: auto;
   }
