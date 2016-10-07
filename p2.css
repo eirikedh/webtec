@@ -46,7 +46,7 @@ hr {
 
 img {
 	width: 30%;
-	display:block;
+	display:inline-block;
 	margin-left: auto;
 	margin-right: auto;
 	
@@ -82,9 +82,8 @@ table {
 	margin-top: 5%;
   }
 
-#produkth {
-	float:right;
-	margin-top:-65%;
+#produkter {
+	text-align:center;
   }
 
 .clientname {
