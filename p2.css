@@ -46,7 +46,7 @@ hr {
 
 img {
 	width: 30%;
-	display:block;
+	display:inline-block;
 	margin-left: auto;
 	margin-right: auto;
 
@@ -71,7 +71,9 @@ th, td {
 	display:block;
 	margin-left: auto;
 	margin-right: auto;
+	margin-top: 5%;
   }
+
 
 .clientname {
   font-family: "Trebuchet MS", Helvetica, sans-serif; "Times New Roman", Times, serif;
