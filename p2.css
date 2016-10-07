@@ -69,6 +69,10 @@ td:last-child{
       width: 6%;
 }
 
+table {
+  width: 960px;
+}
+
 #strukturbilde {
 	width: 600px;
 	height: 400px;
