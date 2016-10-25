@@ -1,9 +1,10 @@
 
 body{
-  width: 960px;
+  width: 100%;
 }
 
-#greenbox{
+.greenbox{
   width: 100%;
-  background-color: 205F08
+  background-color: #205F08;
+  color: #F8F8F8;
 }
