@@ -12,6 +12,10 @@ body{
   margin-top: -0.3em;
 }
 
+a{
+  color: #F8F8F8;
+}
+
 .whitebox{
   background-color: #F8F8F8;
   color: #205F08;
