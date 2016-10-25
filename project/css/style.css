@@ -26,17 +26,33 @@ a{
   width: 100%;
 }
 
+#nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #205F08;
+    text-align: center;
+}
+
+#nav li {
+    float: left;
+    margin-left:8%;
+}
+
+#nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
 #logo{
   width:100%;
 }
 
-#menubox{
-  width: 100%;
-  background-color: #205F08;
-  color: #F8F8F8;
-  display:inline-block;
-  margin-top: -0.3em;
-}
+
 
 #divbutton {
   width: 20%;
