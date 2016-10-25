@@ -38,6 +38,18 @@ a{
   margin-top: -0.3em;
 }
 
+#divbutton {
+  width: 20%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+#divvareprod {
+  width: 60%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
 button {
   height: 100px;
   width: 100px;
