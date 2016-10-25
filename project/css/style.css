@@ -39,11 +39,12 @@ a{
 }
 
 button {
-  height: 40px;
-  width: 40px;
+  height: 100px;
+  width: 100px;
   font-size: 16px;
   border-radius: 50%;
   background-color: #205F08;
+  border-color: #F8F8F8;
   color: #F8F8F8;
   text-align: center;
   }
