@@ -36,3 +36,13 @@ a{
   display:inline-block;
   margin-top: -0.3em;
 }
+
+button {
+  height: 35px;
+  width: 375px;
+  font-size: 16px;
+  border-radius: 60%;
+  background-color: #205F08;
+  color: #F8F8F8;
+  text-align: center;
+  }
