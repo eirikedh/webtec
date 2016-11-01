@@ -59,8 +59,6 @@ body{
 }
 
 button {
-  height: 170px;
-  width: 170px;
   font-size: 20px;
   background-color: #286F0D;
   border-radius: 50%;
@@ -82,21 +80,21 @@ button:hover {
 
 
 div.buttondiv button{
-  left: 0;
   position:relative;
-  width: 0%;
-  height: 100%;
+  width: 200px;
+  height: 200px;
   float: left;
-  margin-top: 5%;
-  margin-left: 8em;
+  margin-top: 4%;
+  margin-bottom: 4%;
+  margin-left: 5%;
 }
 
 div.textdiv{
   font-size: 22px;
-  left: 35%;
+  margin-left: 30%;
+  padding-left: 5%;
   position: relative;
   width: 50%;
-  height: 80%;
   text-align:left;
   border-left: thick solid #F8F8F8;
   margin-top: 5%;
