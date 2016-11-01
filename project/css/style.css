@@ -183,6 +183,7 @@ div.textdiv{
   text-decoration: underline;
   text-shadow: 1px 1px black;
 }
+
 #omoss_bilde1 img{
   width:30%;
   height:20%;
@@ -210,15 +211,13 @@ div.textdiv{
   margin-right: 10%;
 }
 
-
 div.leftline_text{
   font-size: 50px;
-  position:relative;
-  bottom:170px;
-  width: 600px;
-
+  text-align: left;
+  margin-left: 10%;
+  margin-top: 4%;
+  float: left;
 }
-
 
 .white_omoss{
   text-align: left;
