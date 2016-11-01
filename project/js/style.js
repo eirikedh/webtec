@@ -1,5 +1,5 @@
 
-function button() {
-  window.location.href="<the page you are going to>";
+function buttonclick() {
+  window.location.href="om_oss.html";
   
   }
