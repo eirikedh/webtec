@@ -25,6 +25,11 @@ body{
   width: 100%;
 }
 
+div.textdiv h2 {
+  padding-top: 10%;
+   
+}
+
 #nav {
     list-style-type: none;
     margin: 0;
@@ -99,6 +104,7 @@ div.textdiv{
   text-align:left;
   border-left: thick solid #F8F8F8;
   margin-top: 5%;
+  height: 60%;
 }
 
 #footer{
@@ -239,9 +245,10 @@ div.leftline_text{
 
 .white_omoss{
   text-align: left;
-  width: 800px;
+  width: 55%;
   margin-left: 5%;
   margin-right: 30%;
   font-size: 23px;
   color: #205F08;
+  position: relative;
 }
