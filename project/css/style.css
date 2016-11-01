@@ -51,8 +51,9 @@ a{
   }
 
 #nav li a:hover {
-  font-style: bold;
+  font-weight: bold;
   text-decoration: underline;
+  text-shadow: 2px 2px #ff0000;
 }
   
 #logo{
