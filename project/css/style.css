@@ -8,7 +8,7 @@ body{
 .greenbox{
   height: 280px;
   width: 100%;
-  background-color: #205F08;
+  background-color: #244D15;
   color: #F8F8F8;
   display:inline-block;
   margin-top: -0.3em;
@@ -17,7 +17,7 @@ body{
 
 .whitebox{
   background-color: #F8F8F8;
-  color: #205F08;
+  color: #244D15;
 }
 
 .backgroundimages{
@@ -29,7 +29,7 @@ body{
     margin: 0;
     padding: 5px;
     overflow: hidden;
-    background-color: #205F08;
+    background-color: #244D15;
     text-align: center;
 }
 
@@ -73,7 +73,7 @@ button {
 
 button:hover {
   background-color: #F8F8F8;
-  border-color: #205F08;
+  border-color: #244D15;
   color: #205F08;
   
 }
@@ -110,7 +110,7 @@ div.leftline_text{
 #footer{
   height: 220px;
   width: 100%;
-  background-color: #205F08;
+  background-color: #244D15;
   color: #F8F8F8;
   display:inline-block;
   margin-top: -0.3em;
