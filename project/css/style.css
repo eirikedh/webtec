@@ -88,6 +88,7 @@ div.buttondiv{
   float: left;
   margin-top: 5%;
   margin-left: 8em;
+  border-right: thick solid #F8F8F8;
 }
 
 div.textdiv{
@@ -102,7 +103,6 @@ div.textdiv{
 }
 
 .divider {
-  left: 0;
   float: left;
   position: relative;
   width: 0;
