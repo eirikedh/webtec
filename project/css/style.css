@@ -224,15 +224,15 @@ div.textdiv{
 }
 
 #omoss_bilde2 img{
-  width:18%;
-  height:14%;
+  width:22%;
+  height:18%;
   float:right;
   border-style: solid;
   border-width: 2px;
   border-color: #205F08;
   border-radius: 10px;
   position: relative;
-  bottom: 200px;
+  bottom: 180px;
   margin-right: 10%;
 }
 
@@ -249,7 +249,7 @@ div.leftline_text{
   width: 55%;
   margin-left: 5%;
   margin-right: 30%;
-  font-size: 23px;
+  font-size: 22px;
   color: #205F08;
   position: relative;
 }
