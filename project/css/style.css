@@ -98,14 +98,13 @@ div.textdiv{
   height: 80%;
   text-align:left;
   border-left: thick solid #F8F8F8;
-  line-height: 40px;
   margin-top: 5%;
 }
 
 .divider {
   display: inline-block;
   width: 0;
-  height: 1em;
+  height: 40px;
   border-left: 1px solid #ccc;
   border-right: 1px solid #ccc; 
 }
