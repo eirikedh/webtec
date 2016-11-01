@@ -147,7 +147,7 @@ div.textdiv{
   position: absolute;
 }
 #footerlogo{
-  width: 70%;
+  width: 60%;
   float: left;
 }
 
@@ -186,7 +186,7 @@ div.textdiv{
 #produkter{
   display: block;
   padding: 10px 16px;
-  text-decoration: none;
+  text-decoration: underline;;
   color: #F8F8F8;
   font-size: 18px;
 }
@@ -195,18 +195,8 @@ div.textdiv{
   text-decoration: underline;
   text-shadow: 1px 1px black;
 }
-
-#produkter{
-  display: block;
-  padding: 10px 16px;
-  text-decoration: none;
-  color: #F8F8F8;
-  font-size: 18px;
-}
-
-#map1 li a:hover {
-  text-decoration: underline;
-  text-shadow: 1px 1px black;
+#map1 ul li ul li{
+  list-style: square;;
 }
 
 #omoss_bilde1 img{
