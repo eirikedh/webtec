@@ -186,7 +186,7 @@ div.leftline_text{
   border-radius: 10px;
   margin-bottom: -250px;
   position: relative;
-  bottom:330px;
+  bottom:380px;
   margin-right: 5%;
 }
 
@@ -199,8 +199,8 @@ div.leftline_text{
   border-color: #205F08;
   border-radius: 10px;
   position: relative;
-  bottom: 180px;
-  margin-right: 8%;
+  bottom: 200px;
+  margin-right: 10%;
 }
 
 
@@ -218,6 +218,6 @@ div.leftline_text{
   width: 800px;
   margin-left: 5%;
   margin-right: 30%;
-  font-size: 20px;
+  font-size: 23px;
   color: #205F08;
 }
