@@ -80,6 +80,11 @@ button:hover {
   
 }
 
+.buttondiv button {
+  border-right: thick solid #F8F8F8;
+}
+
+
 div.buttondiv{
   left: 0;
   position:relative;
@@ -88,7 +93,6 @@ div.buttondiv{
   float: left;
   margin-top: 5%;
   margin-left: 8em;
-  border-right: thick solid #F8F8F8;
 }
 
 div.textdiv{
