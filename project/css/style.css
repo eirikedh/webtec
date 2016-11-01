@@ -175,3 +175,49 @@ div.leftline_text{
   text-decoration: underline;
   text-shadow: 1px 1px black;
 }
+
+#omoss_bilde1 img{
+  width:480px;
+  height:318px;
+  float:right;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #205F08;
+  border-radius: 10px;
+  margin-bottom: -250px;
+  position: relative;
+  bottom:330px;
+  margin-right: 5%;
+}
+
+#omoss_bilde2 img{
+  width:310px;
+  height:270px;
+  float:right;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #205F08;
+  border-radius: 10px;
+  position: relative;
+  bottom: 180px;
+  margin-right: 8%;
+}
+
+
+div.leftline_text{
+  font-size: 50px;
+  position:relative;
+  bottom:170px;
+  width: 600px;
+
+}
+
+
+.white_omoss{
+  text-align: left;
+  width: 800px;
+  margin-left: 5%;
+  margin-right: 30%;
+  font-size: 20px;
+  color: #205F08;
+}
