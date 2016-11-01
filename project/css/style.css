@@ -2,20 +2,17 @@
 body{
   width: 100%;
   margin: 0;
+  text-align: center;
 }
 
 .greenbox{
-  height: 220px;
+  height: 280px;
   width: 100%;
   background-color: #205F08;
   color: #F8F8F8;
   display:inline-block;
   margin-top: -0.3em;
   display:table;
-}
-
-a{
-  
 }
 
 .whitebox{
@@ -38,13 +35,13 @@ a{
 
 #nav li {
     float: left;
-    margin-left:8%;
+    margin-left:7%;
 }
 
 #nav li a {
     display: block;
     text-align: center;
-    padding: 14px 16px;
+    padding: 10px 16px;
     text-decoration: none;
     color: #F8F8F8;
     font-size: 20px;
@@ -66,7 +63,7 @@ button {
   height: 170px;
   width: 170px;
   font-size: 20px;
-  background-color: #2B790E;
+  background-color: #23630B;
   border-radius: 50%;
   border-color: #F8F8F8;
   border-style: solid;
