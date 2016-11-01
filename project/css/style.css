@@ -102,11 +102,11 @@ div.textdiv{
 }
 
 .divider {
-  display: inline-block;
   width: 0;
   height: 40px;
   border-left: 1px solid #ccc;
   border-right: 1px solid #ccc; 
+  padding: 10px;
 }
 
 div.leftline_text{
