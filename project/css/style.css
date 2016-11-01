@@ -24,6 +24,7 @@ a{
 
 .backgroundimages{
   width: 100%;
+  crop: rect(80%,100%,90%,100%)
 }
 
 #nav {
