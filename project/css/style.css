@@ -100,15 +100,6 @@ div.textdiv{
   margin-top: 5%;
 }
 
-.divider {
-  float: left;
-  position: relative;
-  width: 0;
-  height: 40px;
-  border-left: 1px solid #ccc;
-  border-right: 1px solid #ccc; 
-}
-
 div.leftline_text{
   position: relative;
   left: -500px;
