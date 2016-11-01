@@ -98,6 +98,7 @@ div.textdiv{
   height: 80%;
   text-align:left;
   border-left: thick solid #F8F8F8;
+  line-height: 150px;
   margin-top: 5%;
 
 }
