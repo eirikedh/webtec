@@ -11,6 +11,7 @@ body{
   color: #F8F8F8;
   display:inline-block;
   margin-top: -0.3em;
+  display:table;
 }
 
 a{
