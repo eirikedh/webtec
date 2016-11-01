@@ -80,12 +80,8 @@ button:hover {
   
 }
 
-.buttondiv button {
-  border-right: thick solid #F8F8F8;
-}
 
-
-div.buttondiv{
+div.buttondiv button{
   left: 0;
   position:relative;
   width: 0%;
