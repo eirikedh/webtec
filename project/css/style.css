@@ -30,7 +30,7 @@ a{
 #nav {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 20px;
     overflow: hidden;
     background-color: #205F08;
     text-align: center;
