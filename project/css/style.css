@@ -142,3 +142,35 @@ div.leftline_text{
   margin: 0;
   position: absolute;
 }
+#map2 li{
+  list-style: none;
+}
+#map1 li{
+  list-style: none;
+}
+#map2 li a {
+    display: block;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+    color: #F8F8F8;
+    font-size: 20px;
+  }
+
+#map2 li a:hover {
+  text-decoration: underline;
+  text-shadow: 1px 1px black;
+}
+#map1 li a {
+    display: block;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+    color: #F8F8F8;
+    font-size: 20px;
+  }
+
+#map1 li a:hover {
+  text-decoration: underline;
+  text-shadow: 1px 1px black;
+}
