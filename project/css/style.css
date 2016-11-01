@@ -51,7 +51,9 @@ a{
   }
 
 #logo{
-  width:100%;
+  width:80%;
+  margin-left: 10%;
+  text-align: center;
 }
 
 button {
