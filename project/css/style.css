@@ -58,7 +58,7 @@ button {
   height: 180px;
   width: 180px;
   font-size: 20px;
-  background-color: #205F08;
+  background-color: #3B8220;
   border-radius: 50%;
   border-color: #F8F8F8;
   border-style: solid;
@@ -71,6 +71,7 @@ button {
 
 button:hover {
   background-color: #F8F8F8;
+  border-color: #205F08;
   color: #205F08;
   
 }
