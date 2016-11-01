@@ -186,7 +186,7 @@ div.textdiv{
 #produkter{
   display: block;
   padding: 10px 16px;
-  text-decoration: underline;;
+  text-decoration: underline;
   color: #F8F8F8;
   font-size: 18px;
 }
@@ -196,7 +196,7 @@ div.textdiv{
   text-shadow: 1px 1px black;
 }
 #map1 ul li ul li{
-  list-style: square;;
+  list-style: square;
 }
 
 #omoss_bilde1 img{
