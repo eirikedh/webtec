@@ -1,4 +1,4 @@
-
+/* BODY */
 body{
   width: 100%;
   margin: 0;
@@ -6,6 +6,7 @@ body{
   background-color: #F8F8F8;
 }
 
+/* GREENBOX */
 .greenbox{
   height: 280px;
   width: 100%;
@@ -25,7 +26,8 @@ body{
   width: 100%;
 }
 
-div.textdiv h2 {
+
+div.textdiv h3 {
   padding-top: 10%;
    
 }
