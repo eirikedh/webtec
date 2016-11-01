@@ -147,7 +147,8 @@ div.textdiv{
 #footerlogo{
   width: 70%;
   float: left;
-  margin-top: 4%;
+  margin-top: 3%;
+  margin-bottom: 2%
 }
 
 #map1 ul{
