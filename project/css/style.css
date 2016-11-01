@@ -53,7 +53,7 @@ a{
 #nav li a:hover {
   font-weight: bold;
   text-decoration: underline;
-  text-shadow: 2px 2px #ff0000;
+  text-shadow: 2px 2px black;
 }
   
 #logo{
