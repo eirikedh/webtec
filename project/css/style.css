@@ -106,3 +106,39 @@ div.leftline_text{
   margin-left: 100px;
   font-size: 55px;
 }
+
+#footer{
+  height: 220px;
+  width: 100%;
+  background-color: #205F08;
+  color: #F8F8F8;
+  display:inline-block;
+  margin-top: -0.3em;
+  display:table;
+}
+
+#map1{
+  left:70%;
+  width: 20%;
+  height: 176px;
+  position: absolute;
+  border-left: thick solid #F8F8F8;
+  margin-top: 20px;
+}
+
+#map2{
+  left:50%;
+  width: 20%;
+  height: 176px;
+  position: absolute;
+  border-left: thick solid #F8F8F8;
+  margin-top: 20px;
+}
+
+#logofooter{
+  width: 60%;
+  height: 220px;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+}
