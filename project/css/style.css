@@ -28,7 +28,6 @@ body{
 }
 
 .greenbox_mini {
-  position: absolute;
   height: 70px;
   width: 30%;
   background-color: #244D15;
