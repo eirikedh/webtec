@@ -249,13 +249,39 @@ div.buttondiv button{
 
 /* ----- FOOTER ----- */
 #footer{
-  height: 220px;
+  height: 200px;
   width: 100%;
   background-color: #244D15;
   color: #F8F8F8;
   display:inline-block;
   margin-top: -0.3em;
   display:table;
+}
+#logofooterdiv{
+  width: 60%;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+}
+#footerlogo{
+  width: 44%;
+  float: left;
+}
+
+@media screen and (max-device-aspect-ratio:16/10){
+  #logofooterdiv{
+    width: 60%;
+    height: 156px;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+  }
+  #footerlogo{
+    width: 53%;
+    float: left;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
 }
 
 #map1{
@@ -270,7 +296,7 @@ div.buttondiv button{
 #map2{
   left:60%;
   width: 20%;
-  height: 156px;
+  height: 136px;
   position: absolute;
   border-left: thick solid #F8F8F8;
   margin-top: 40px;
@@ -285,26 +311,11 @@ div.buttondiv button{
 #map3{
   left:80%;
   width: 19%;
-  height: 156px;
+  height: 136px;
   position: absolute;
   margin-top: 40px;
   text-align: left;
   border-left: thick solid #F8F8F8;
-}
-
-#logofooterdiv{
-  width: 60%;
-  height: 156px;
-  padding: 0;
-  margin: 0;
-  position: absolute;
-}
-#footerlogo{
-  padding-top: 20px;
-  width: 60%;
-  float: left;
-  margin-bottom: 0;
-  padding-bottom: 0;
 }
 
 .footerlist ul{
@@ -341,6 +352,7 @@ div.buttondiv button{
 #map2 ul li ul li{
   list-style: square;
 }
+
 
 .white_galleri{
   margin-top: 5%;
