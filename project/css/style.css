@@ -117,6 +117,18 @@ div.leftline_text{
   height:80%;
   }
 
+.white_mini{
+  margin-top: 2%;
+  text-align: left;
+  float: left;
+  width: 40%;
+  margin-left: 4%;
+  margin-right: 4%;
+  font-size: 22px;
+  color: #205F08;
+  height:80%;
+  }
+
 
 /* ----- NAVIGASJONS-BAR ----- */
 #nav {
@@ -189,7 +201,7 @@ div.buttondiv button{
 /* ----- VIDEO ----- */
 
 #vid1 {
- margin-right: 1% 
+ margin-right: 4% 
  }
 
 
