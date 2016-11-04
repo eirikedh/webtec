@@ -360,7 +360,7 @@ div.buttondiv button{
   text-align: left;
   float: left;
   width: 100%;
-  margin-left: 2%;
+  margin-left: 5%;
   margin-right: 2%;
   font-size: 22px;
   color: #205F08;
@@ -368,7 +368,7 @@ div.buttondiv button{
   }
 
 div.galleri {
-    margin: 3%;
+    margin: 2%;
     float: left;
     width: 180px;
 }
