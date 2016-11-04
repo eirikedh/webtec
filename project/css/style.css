@@ -4,6 +4,8 @@ body{
   margin: 0;
   text-align: center;
   background-color: #F8F8F8;
+  font-family: Georgia, Times
+
 }
 
 /* ----- BOXES ------ */
@@ -139,6 +141,7 @@ div.leftline_text{
     overflow: hidden;
     background-color: #244D15;
     text-align: center;
+    font-family: "Trebuchet MS", Arial
 }
 
 #nav li {
