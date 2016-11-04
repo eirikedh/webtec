@@ -133,6 +133,11 @@ div.leftline_text{
   height:80%;
   }
 
+.greenbox h3 {
+  font-size: 50px;
+  padding-top: 1%;  
+  }
+
 
 /* ----- NAVIGASJONS-BAR ----- */
 #nav {
@@ -214,9 +219,9 @@ div.buttondiv button{
 
 #kart1 {
   float: left;
-  margin-left: 15%;
+  margin-left: 10%;
   margin-top: 5%;
-  margin-bottom: 10%;
+  margin-bottom: 7%;
   }
 
 #kart2 {
@@ -226,18 +231,21 @@ div.buttondiv button{
   margin-bottom: 10%;
   border-left: thick solid #244D15;
   height: 60%;
-
+  padding-left: 9%;
   }
 
 #kart1 p, #kart2 p {
- font-size: 18px;
- color: 244D15; 
-}
+  font-size: 20px;
+  color: #244D15; 
+  margin: 2%;
+  }
 
 #kart1 h3, #kart2 h3 {
- font-size: 20px;
- color: 244D15; 
-}
+  font-size: 22px;
+  color: #244D15; 
+  margin-top: 8%;
+  text-decoration: underline;
+  }
 
 /* ----- FOOTER ----- */
 #footer{
