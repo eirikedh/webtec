@@ -6,7 +6,7 @@ body{
   background-color: #F8F8F8;
 }
 
-/* ----- GREENBOX ------ */
+/* ----- BOXES ------ */
 .greenbox{
   height: 280px;
   width: 100%;
@@ -28,23 +28,20 @@ body{
 }
 
 .greenbox_mini {
-  height: 80px;
-  width: 20%;
+  height: 70px;
+  width: 30%;
   background-color: #244D15;
   color: #F8F8F8;
   display:inline-block;
   margin-top: 5%;
   display:table;  
   left: 0;
-  
-}
+  }
 
-
-/* ----- WHITEBOX ----- */
 .whitebox{
   background-color: #F8F8F8;
   color: #244D15;
-}
+  }
 
 
 /* ----- BILDER ----- */
@@ -119,11 +116,12 @@ div.leftline_text{
 
 .white_mini{
   margin-top: 2%;
+  margin-left: 4%;
+  margin-right: 4%;
+  margin-bottom: 5%;
   text-align: left;
   float: left;
   width: 40%;
-  margin-left: 4%;
-  margin-right: 4%;
   font-size: 22px;
   color: #205F08;
   height:80%;
