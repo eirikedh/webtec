@@ -214,10 +214,15 @@ div.buttondiv button{
 
 #kart1 {
   float: left;
+  margin-left: 10%;
+  margin-top: 10%;
   }
 
 #kart2 {
+  margin-right: 10%;
+  margin-top: 10%;
   border-left: thick solid #F8F8F8;
+  height: 60%;
   }
 
 
