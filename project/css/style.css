@@ -138,6 +138,31 @@ div.leftline_text{
   padding-top: 1%;  
   }
 
+#thflor_txt1 {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 5%;
+  color: #205F08;
+  font-size: 18px;
+  }
+
+#thflor_txt2 h4 {
+  margin-top: 5%;
+  color: #205F08;
+  font-size: 24px;
+  float: left;
+  }
+
+#thflor_txt2 p {
+  font-size: 20px;
+  background-color: #245711;
+  border-radius: 50%;
+  border-color: #F8F8F8;
+  border-style: solid;
+  color: #F8F8F8;
+  text-align: center;
+  }
+
 
 /* ----- NAVIGASJONS-BAR ----- */
 #nav {
