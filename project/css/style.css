@@ -1,4 +1,4 @@
-/* BODY */
+/* ------ BODY ------ */
 body{
   width: 100%;
   margin: 0;
@@ -6,7 +6,7 @@ body{
   background-color: #F8F8F8;
 }
 
-/* GREENBOX */
+/* ----- GREENBOX ------ */
 .greenbox{
   height: 280px;
   width: 100%;
@@ -17,10 +17,35 @@ body{
   display:table;
 }
 
+.greenbox_small {
+  height: 180px;
+  width: 100%;
+  background-color: #244D15;
+  color: #F8F8F8;
+  display:inline-block;
+  margin-top: -0.3em;
+  display:table;  
+}
+
+.greenbox_mini {
+  height: 80px;
+  width: 20%;
+  background-color: #244D15;
+  color: #F8F8F8;
+  display:inline-block;
+  margin-top: -0.3em;
+  display:table;  
+  left: 0;
+  
+}
+
+
+/* ----- WHITEBOX ----- */
 .whitebox{
   background-color: #F8F8F8;
   color: #244D15;
 }
+
 
 .backgroundimages{
   width: 100%;
