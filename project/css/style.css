@@ -196,94 +196,82 @@ div.buttondiv button{
   display:inline-block;
   margin-top: -0.3em;
   display:table;
-  }
+}
+
+#map1{
+  left:50%;
+  width: 20%;
+  height: 176px;
+  position: absolute;
+  margin-top: 20px;
+  text-align: left;
+}
+
+#map2{
+  left:60%;
+  width: 20%;
+  height: 176px;
+  position: absolute;
+  border-left: thick solid #F8F8F8;
+  margin-top: 20px;
+  text-align: left;
+}
+#map2 ul{
+  padding-left: 60px;
+}
+#map2 li ul{
+  padding-left: 20px;
+}
+#map3{
+  left:80%;
+  width: 19%;
+  height: 176px;
+  position: absolute;
+  margin-top: 20px;
+  text-align: left;
+  border-left: thick solid #F8F8F8;
+}
 
 #logofooterdiv{
-  width: 70%;
+  width: 60%;
   height: 220px;
   padding: 0;
   margin: 0;
   position: absolute;
-  }
-
+}
 #footerlogo{
   width: 60%;
   float: left;
-  }
+}
 
-#produkter {
-  display: block;
-  padding: 10px 16px;
-  text-decoration: underline;
-  color: #F8F8F8;
-  font-size: 18px;
-  }
+.footerlist ul{
+  margin: 0
+}
 
-
-/* ----- MAPS ----- */
-#map1{
-  left:53%;
-  width: 20%;
-  height: 176px;
-  position: absolute;
-  border-left: thick solid #F8F8F8;
-  margin-top: 20px;
-  text-align: left;
-  }
-
-#map2{
-  left:78%;
-  width: 20%;
-  height: 176px;
-  position: absolute;
-  border-left: thick solid #F8F8F8;
-  margin-top: 20px;
-  text-align: left;
-  }
-
-#map1 ul{
-  margin-top: 0;
-  }
-
-#map2 ul{
-  margin-top: 0;
-  }
-
-#map2 li{
+.footerlist li{
   list-style: none;
-  }
+}
 
-#map1 li{
-  list-style: none;
-  }
-
-#map2 li a {
-  display: block;
-  padding: 10px 16px;
-  text-decoration: none;
-  color: #F8F8F8;
-  font-size: 18px;
-  }
-
-#map2 li a:hover {
+.footerlist li a{
+      display: block;
+      padding: 10px 16px;
+      text-decoration: none;
+      color: #F8F8F8;
+      font-size: 18px;
+}
+.footerlist li a:hover{
   text-decoration: underline;
   text-shadow: 1px 1px black;
-  }
+}
 
-#map1 li a {
+#produkter{
   display: block;
   padding: 10px 16px;
-  text-decoration: none;
+  text-decoration: underline;
   color: #F8F8F8;
   font-size: 18px;
-  }
+}
 
-#map1 li a:hover {
-  text-decoration: underline;
-  text-shadow: 1px 1px black;
-  }
-
-#map1 ul li ul li{
+#map2 ul li ul li{
   list-style: square;
-  }
-
+}
