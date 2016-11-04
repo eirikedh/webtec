@@ -139,15 +139,17 @@ div.leftline_text{
   }
 
 #thflor_txt1 {
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 15%;
+  margin-right: 15%;
   margin-top: 5%;
+  margin-bottom: 5%;
   color: #205F08;
-  font-size: 18px;
+  font-size: 24px;
   }
 
 #thflor_txt2 h4 {
-  margin-top: 5%;
+  margin-top: 4%;
+  margin-left: 30%;
   color: #205F08;
   font-size: 24px;
   float: left;
@@ -160,7 +162,11 @@ div.leftline_text{
   border-color: #F8F8F8;
   border-style: solid;
   color: #F8F8F8;
-  text-align: center;
+  margin-left: 57%;
+  margin-bottom: 5%;
+  height: 85px;
+  width: 150px;
+  padding-top: 65px;
   }
 
 
