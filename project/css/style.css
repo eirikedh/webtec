@@ -186,6 +186,12 @@ div.buttondiv button{
   margin-left: 5%;
   }
 
+/* ----- VIDEO ----- */
+
+#vid1 {
+ margin-right: 5% 
+ }
+
 
 /* ----- FOOTER ----- */
 #footer{
@@ -275,3 +281,5 @@ div.buttondiv button{
 #map2 ul li ul li{
   list-style: square;
 }
+
+
