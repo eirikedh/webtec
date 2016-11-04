@@ -214,17 +214,21 @@ div.buttondiv button{
 
 #kart1 {
   float: left;
-  margin-left: 10%;
-  margin-top: 10%;
+  margin-left: 15%;
+  margin-top: 5%;
   }
 
 #kart2 {
   margin-right: 10%;
-  margin-top: 10%;
+  margin-top: 5%;
+  margin-left: 50%
   border-left: thick solid #F8F8F8;
   height: 60%;
   }
 
+#kart1 p, #kart2 p {
+ color: red; 
+}
 
 /* ----- FOOTER ----- */
 #footer{
