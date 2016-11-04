@@ -222,19 +222,19 @@ div.buttondiv button{
 #map1{
   left:50%;
   width: 20%;
-  height: 176px;
+  height: 156px;
   position: absolute;
-  margin-top: 20px;
+  margin-top: 40px;
   text-align: left;
 }
 
 #map2{
   left:60%;
   width: 20%;
-  height: 176px;
+  height: 156px;
   position: absolute;
   border-left: thick solid #F8F8F8;
-  margin-top: 20px;
+  margin-top: 40px;
   text-align: left;
 }
 #map2 ul{
@@ -246,23 +246,26 @@ div.buttondiv button{
 #map3{
   left:80%;
   width: 19%;
-  height: 176px;
+  height: 156px;
   position: absolute;
-  margin-top: 20px;
+  margin-top: 40px;
   text-align: left;
   border-left: thick solid #F8F8F8;
 }
 
 #logofooterdiv{
   width: 60%;
-  height: 220px;
+  height: 156px;
   padding: 0;
   margin: 0;
   position: absolute;
 }
 #footerlogo{
+  padding-top: 20px;
   width: 60%;
   float: left;
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
 
 .footerlist ul{
@@ -287,7 +290,10 @@ div.buttondiv button{
 
 #produkter{
   display: block;
-  padding: 10px 16px;
+  padding-bottom: 11px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 12px;
   text-decoration: underline;
   color: #F8F8F8;
   font-size: 18px;
@@ -296,5 +302,6 @@ div.buttondiv button{
 #map2 ul li ul li{
   list-style: square;
 }
+
 
 
