@@ -210,6 +210,17 @@ div.buttondiv button{
  }
 
 
+/* ----- KART ----- */
+
+#kart1 {
+  float: left;
+  }
+
+#kart2 {
+  border-left: thick solid #F8F8F8;
+  }
+
+
 /* ----- FOOTER ----- */
 #footer{
   height: 220px;
