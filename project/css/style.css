@@ -185,6 +185,8 @@ div.leftline_text{
 #nav li {
   float: left;
   background-color: #244D15;
+  margin-left: 7%;
+  
 }
 
 #nav li a,
