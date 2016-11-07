@@ -7,37 +7,41 @@
   </head>
   <body>
     
+<!-- LOGO  -->
     <div>
       <a href="hjem.html">
         <img id="logo" src="img/logo_transparent.png" type="image.png">
       </a>
     </div>
-      
-<div>
-
-  <ul id="nav">
-    <li> <a href="hjem.html">Hjem</a></li>
-    <li class="dropdown">
-      <a href="javascript:void(0)" class="dropbtn" onclick="myFunction()">Våre Produkter</a>
-      <div class="dropdown-content" id="myDropdown">
-        <a href="vare_produkter.html">Garteriet</a>
-        <a href="thflor_produkter.html">Utsalget</a>
-      </div>
-    </li>
-    <li><a href="thflor.html">TH Flor</a></li>
-    <li><a href="galleri.html">Galleri</a></li>   
-    <li><a href="tips_og_triks.html">Tips og triks</a></li>
-    <li><a href="om_oss.html">Om oss</a></li>
-    <li><a href="kontakt.html">Kontakt</a></li>
+     
     
-  </ul>
-
-</div>
-    
-    <div> 
-      <img class="backgroundimages" src="img/bilde_ild13crop.jpg" type="image.jpg">
+<!-- NAVIGASJONS-BAR  -->
+    <div>
+      <ul id="nav">
+        <li> <a href="hjem.html">Hjem</a></li>
+        <li class="dropdown">
+          <a href="javascript:void(0)" class="dropbtn" onclick="myFunction()">Våre Produkter</a>
+          <div class="dropdown-content" id="myDropdown">
+            <a href="vare_produkter.html">Garteriet</a>
+            <a href="thflor_produkter.html">Utsalget</a>
+          </div>
+        </li>
+        <li><a href="thflor.html">TH Flor</a></li>
+        <li><a href="galleri.html">Galleri</a></li>   
+        <li><a href="tips_og_triks.html">Tips og triks</a></li>
+        <li><a href="om_oss.html">Om oss</a></li>
+        <li><a href="kontakt.html">Kontakt</a></li>
+      </ul>
     </div>
     
+    
+<!-- BAKGRUNNSBILDE 1  -->    
+    <div> 
+      <img class="backgroundimages" src="img/bilde_ild13crop.jpg" type="image.jpg" alt="Ild 13">
+    </div>
+    
+    
+<!-- GREENBOX 1  -->    
     <div class="greenbox">
       <div class ="buttondiv">
         <button id="butt_om_oss" type="button" onclick="buttonclick1()"><span> Les mer <br> om oss </span></button>
@@ -51,10 +55,14 @@
       </div>
     </div>
     
+    
+<!-- BAKGRUNNSBILDE 2  -->    
     <div class="backgroundimages">
       <img class="backgroundimages" src="img/trippel_blomst_crop.jpg" type="image.jpg">
     </div>
+
     
+<!-- GREENBOX 2  -->    
     <div class="greenbox">
       <div class="buttondiv"> 
         <button id="" type="button" onclick="buttonclick2()"> Sjekk ut mer <br> om vårt utsalg </button>
@@ -68,22 +76,28 @@
       </div>
     </div>
     
+    
+<!-- BAKGRUNNSBILDE 3  -->        
     <div class="backgroundimages">
       <img class="backgroundimages" src="img/bilde_ild13crop.jpg" type="image.jpg">
     </div>
+     
     
+<!-- FOOTER  -->        
    <footer id="footer">
       <div id="logofooterdiv">
         <img id="footerlogo" src="img/logo2.png" type="image.png">
       </div>
-      <div id="map1" class="footerlist">
+      
+     <div id="map1" class="footerlist">
         <ul>
           <li><a href="Hjem.html">Hjem</a></li>
           <li><a href="galleri.html">Galleri</a></li>
           <li><a href="omoss.html">Om oss</a></li>
         </ul>
       </div>
-      <div id="map2" class="footerlist">
+      
+     <div id="map2" class="footerlist">
         <ul>
           <li id="produkter">Våre Produkter</li>
           <li>
@@ -94,7 +108,8 @@
           </li>
         </ul>
       </div>
-      <div id="map3" class="footerlist">
+     
+     <div id="map3" class="footerlist">
         <ul>
           <li><a href="thflor.html">TH flor</a></li>
           <li><a href="kontakt.html">Kontakt</a></li>
@@ -102,7 +117,10 @@
         </ul>
       </div>
     </footer>
+
     
+<!-- JAVASCRIPT  -->        
+    <script src="js/navbar.js"></script>
     <script src="js/style.js"></script>
   </body>
 </html>
