@@ -7,48 +7,56 @@
   </head>
   <body>
     
+    
+<!-- LOGO  -->
     <div>
-      <img id="logo" src="img/logo_transparent.png" type="image.png">
+      <a href="hjem.html">
+        <img id="logo" src="img/logo_transparent.png" type="image.png">
+      </a>
     </div>
-      
-<div>
-
-  <ul id="nav">
-    <li> <a href="hjem.html">Hjem</a></li>
-    <li class="dropdown">
-      <a href="javascript:void(0)" class="dropbtn" onclick="myFunction()">Våre Produkter</a>
-      <div class="dropdown-content" id="myDropdown">
-        <a href="vare_produkter.html">Garteriet</a>
-        <a href="thflor_produkter.html">Utsalget</a>
-      </div>
-    </li>
-    <li><a href="thflor.html">TH Flor</a></li>
-    <li><a href="galleri.html">Galleri</a></li>   
-    <li><a href="tips_og_triks.html">Tips og triks</a></li>
-    <li><a href="om_oss.html">Om oss</a></li>
-    <li><a href="kontakt.html">Kontakt</a></li>
+     
     
-  </ul>
-
-</div>
+<!-- NAVIGASJONS-BAR  -->
+    <div>
+      <ul id="nav">
+        <li> <a href="hjem.html">Hjem</a></li>
+        <li class="dropdown">
+          <a href="javascript:void(0)" class="dropbtn" onclick="myFunction()">Våre Produkter</a>
+          <div class="dropdown-content" id="myDropdown">
+            <a href="vare_produkter.html">Garteriet</a>
+            <a href="thflor_produkter.html">Utsalget</a>
+          </div>
+        </li>
+        <li><a href="thflor.html">TH Flor</a></li>
+        <li><a href="galleri.html">Galleri</a></li>   
+        <li><a href="tips_og_triks.html">Tips og triks</a></li>
+        <li><a href="om_oss.html">Om oss</a></li>
+        <li><a href="kontakt.html">Kontakt</a></li>
+      </ul>
+    </div>
+   
     
+<!-- BAKGRUNNSBILDE 1  -->    
     <div> 
-      <img class="backgroundimages" src="img/bilde_ild13crop.jpg" type="image.jpg">
+      <img class="backgroundimages" src="img/bilde_ild13crop.jpg" type="image.jpg" alt="Ild 13">
     </div>
     
+    
+<!-- GREENBOX 1  -->    
     <div class="greenbox">
       <div class ="buttondiv">
         <button id="butt_om_oss" type="button" onclick="buttonclick3()"><span> Sjekk ut <br> galleriet </span></button>
       </div>
       <div class = "textdiv">
         <h2>Tips og triks</h2>
-        <p>Løn Gartneri dyrker det som sannsynligvis er verdens fineste blomster.
-           Det legges ned mye ressurser i å dyrke fram de beste egenskapene på alle våre produkter,
-           slik at kundene våre skal få flotte blomster av god kvalitet.
+        <p>Lurer du på hvordan du kan holde lenger liv i blomstene? Eller kanskje du lurer på
+          hvilke blomster du skal kjøpe når vinteren kommer? Her kan du lese tips og triks om blomster!
         </p>
       </div>
     </div>
+
     
+<!-- GREENBOX MINI 1  -->    
     <div class="greenbox_mini">
       <h2> Hold plantene i live </h2>
     </div>
@@ -68,7 +76,8 @@
       </iframe>
     </div>
     
-    
+
+<!-- GREENBOX MINI 2  -->    
     <div class="greenbox_mini">
       <h2> Velg riktige vinterblomster  </h2>
     </div>
@@ -90,30 +99,44 @@
     </div>    
 
     
-    <footer id="footer">
+<!-- FOOTER  -->        
+   <footer id="footer">
       <div id="logofooterdiv">
         <img id="footerlogo" src="img/logo2.png" type="image.png">
       </div>
-      <div id="map1">
+      
+     <div id="map1" class="footerlist">
         <ul>
-          <li id="kake"><a href="hjem.html">Hjem</a></li>
-          <li id="produkter">Våre Produkter</li>
-          <ul>
-            <li id="hiddenlist1"><a href="vare_produkter.html">Løn Gartneri</a></li>
-            <li id="hiddenlist2"><a href="thflor_prdoukter.html">TH flor </a></li>
-          </ul>
+          <li><a href="Hjem.html">Hjem</a></li>
+          <li><a href="galleri.html">Galleri</a></li>
+          <li><a href="omoss.html">Om oss</a></li>
         </ul>
       </div>
-      <div id="map2">
+      
+     <div id="map2" class="footerlist">
+        <ul>
+          <li id="produkter">Våre Produkter</li>
+          <li>
+            <ul>
+              <li><a href="randomATM">Løn Gartneri</a></li>
+              <li><a href="randomATM">TH flor </a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+     
+     <div id="map3" class="footerlist">
         <ul>
           <li><a href="thflor.html">TH flor</a></li>
-          <li><a href="galleri.html">Galleri</a></li>
-          <li><a href="om_oss.html">Om oss</a></li>
           <li><a href="kontakt.html">Kontakt</a></li>
+          <li><a href="tips_og_triks.html">Tips Og Triks</a></li>
         </ul>
       </div>
     </footer>
     
+    
+<!-- JAVASCRIPT  -->        
+    <script src="js/navbar.js"></script>
     <script src="js/style.js"></script>
   </body>
 </html>
