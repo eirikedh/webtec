@@ -315,12 +315,13 @@ div.buttondiv button{
 
 /* ----- DROPDOWN ----- */
 .dropbtn {
-  background-color: #4CAF50;
+  background-color: #245711;
   color: white;
   padding: 16px;
-  font-size: 16px;
+  font-size: 22px;
   border: none;
   cursor: pointer;
+  height: 160px;
   }
 
 .dropbtn:hover, .dropbtn:focus {
@@ -330,7 +331,8 @@ div.buttondiv button{
 .dropdown {
   float: right;
   position: relative;
-  display: inline-block;   
+  display: inline-block;  
+  margin-right: 32%;
   }
 
 .dropdown-content {
