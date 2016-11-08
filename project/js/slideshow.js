@@ -12,3 +12,5 @@ function loop() {
     x[bilder-1].style.display = "block";
     setTimeout(loop, 4000);
 }
+
+//Hentet fra W3
