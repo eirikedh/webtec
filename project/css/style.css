@@ -46,9 +46,14 @@ body{
 
 
 /* ----- BILDER ----- */
+
+img {
+  image-orientation: from-image;
+  }
+
 .backgroundimages{
   width: 100%;
-}
+  }
 
 #omoss_bilde1 img{
   width:30%;
