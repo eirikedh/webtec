@@ -11,8 +11,8 @@ function buttonclick3() {
 	window.location.href="galleri.html";
 	}
 
-function dropdown() {
-	document.getElementById("myDropdown").classList.toggle("show");
+function opentime() {
+	document.getElementById("myOpentime").classList.toggle("show");
 	}
 
 
