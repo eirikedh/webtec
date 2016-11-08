@@ -1,65 +1,46 @@
-let navdiv = document.getElementById("navdiv");
+let navdiv = document.getElementById("navdiv")
+let nav = document.createElement("ul")
+nav.id ="nav"
 
-window.onload = function addNavBar(){
-  let nav =document.createElement("ul");
-  nav.id ="nav";
-  for (let i = 1; i<6; i++){
-    if (i = 1){
-      let li = document.createElement("li");
-      let nava = document.createElement("a");
-      nava.href = "hjem.html";
-      nava.appendChild(document.createTextNode("Hjem"));
-      li.appendChild(nava)
-      nav.appendChild(li)
-    }
-    if (i = 2){
-      let li = document.createElement("li");
-      let nava = document.createElement("a");
-      nava.href = "vare_produkter.html";
-      nava.appendChild(document.createTextNode("Våre Produkter"));
-      li.appendChild(nava)
-      nav.appendChild(li)
-    }
-    if (i = 3){
-      let li = document.createElement("li");
-      let nava = document.createElement("a");
-      nava.href = "thflor.html";
-      nava.appendChild(document.createTextNode("TH Flor"));
-      li.appendChild(nava)
-      nav.appendChild(li)
-    }
-    if (i = 4){
-      let li = document.createElement("li");
-      let nava = document.createElement("a");
-      nava.href = "gallerihtml";
-      nava.appendChild(document.createTextNode("Galleri"));
-      li.appendChild(nava)
-      nav.appendChild(li)
-    }
-    if (i = 5){
-      let li = document.createElement("li");
-      let nava = document.createElement("a");
-      nava.href = "tips_og_triks.html";
-      nava.appendChild(document.createTextNode("Tips og triks"));
-      li.appendChild(nava)
-      nav.appendChild(li)
-    }
-    if (i = 6){
-      let li = document.createElement("li");
-      let nava = document.createElement("a");
-      nava.href = "om_oss.html";
-      nava.appendChild(document.createTextNode("Om oss"));
-      li.appendChild(nava)
-      nav.appendChild(li)
-    }
-    if (i = 7){
-      let li = document.createElement("li");
-      let nava = document.createElement("a");
-      nava.href = "kontakt.html";
-      nava.appendChild(document.createTextNode("Kontakt"));
-      li.appendChild(nava)
-      nav.appendChild(li)
-    }
-  }
-  navdiv.appendChild(nav)
+function navbar(link,text){
+  let li = document.createElement("li")
+  let a = document.createElement("a")
+  a.href = link
+  a.appendChild(document.createTextNode(text))
+  li.appendChild(a)
+  nav.appendChild(li)
 }
+
+navbar("hjem.html", "Hjem")
+function vareprodukter(){
+  let prodli = document.createElement("li")
+  prodli.className = "dropdown"
+  let proda = document.createElement("a")
+  proli.innerHTML = ' <a href="javascript:void(0)" class="dropbtn" onclick="myFunction()">Våre Produkter</a>'
+  prodli.appendChild(proda)
+  let prodiv = document.createElement("div")
+  prodiv.className = "dropdown-content"
+  prodiv.id = "myDropdown"
+  let vareli = document.createElement("li")
+  let thli = document.createElement("li")
+  let varea = document.createElement("a")
+  let tha = document.createElement("a")
+  varea.href = "vare_produkter.html"
+  varea.appendChild(document.createTextNode("Våre Produkter"))
+  vareli.appendChild(varea)
+  tha.href = "thflor_produkter.html"
+  tha.appendChild(document.createTextNode("TH Flor"))
+  thli.appendChild(tha)
+  prodiv.appendChild(vareli)
+  prodiv.appendChild(thli)
+  prodli.appendChild(prodiv)
+  nav.appendChild(prodli)
+}
+vareprodukter();
+navbar("thflor.html", "TH Flor")
+navbar("galleri.html", "Galleri")
+navbar("tips_og_triks", "Tips Og Triks")
+navbar("om_oss.html", "Om Oss")
+navbar("kontakt.html", "Kontak")
+
+navdiv.appendChild(nav)
