@@ -565,3 +565,18 @@ div.bildetekst {
     text-align: center;
 }
 
+.background_slideshow{
+  height:600px;
+  width: 100%;
+  background-color: #001a00;
+  border-top: solid;
+  border-bottom: solid;
+  border-width: 5px 0px 10px 0px;
+}
+
+#div_slideshow{
+  width:850px;
+  position:absolute;
+  left:22%;
+  right: 25%;
+}
