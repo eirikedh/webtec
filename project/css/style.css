@@ -313,7 +313,7 @@ div.buttondiv button{
   }
 
 
-/* ----- DROPDOWN ----- */
+/* ----- DROPDOWN -----
 .dropbtn {
   background-color: #245711;
   color: white;
@@ -359,6 +359,7 @@ div.buttondiv button{
 .show {
   display:block;
   }
+*/
 
 /* ----- FOOTER ----- */
 #footer{
