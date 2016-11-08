@@ -10,7 +10,7 @@
 <!-- LOGO  -->
     <div>
       <a href="hjem.html">
-        <img id="logo" src="img/logo_thflor.png" type="image.png">
+        <img id="logo" src="img/logo_thflor.png" alt="Logo TH Flor">
       </a>
     </div>
      
@@ -37,7 +37,7 @@
     
 <!-- BAKGRUNNSBILDE 1  -->    
     <div> 
-      <img class="backgroundimages" src="img/bilde_thflor10crop.jpg" type="image.jpg" alt="Ild 13">
+      <img class="backgroundimages" src="img/bilde_thflor10crop.jpg" alt="Ild 13">
     </div>
     
     
@@ -60,15 +60,25 @@
   
     <div id="thflor_txt2">
       <h4> Du finner oss i Basbergveien 73</h4>
-      <p> Lørdag 10-16</p>
+      
+      <div class="dropdown">
+        <button onclick="myFunction()" class="dropbtn">Åpningstider</button>
+        <div id="myDropdown" class="dropdown-content">
+          <a href="#home">Hverdager 8-14</a>
+          <a href="#about">Lørdager 10-12</a>
+          <a href="#contact">Helligdager Stengt</a>
+        </div>
+      </div>        
     </div>
     
+    <p> Lørdag 10-16</p>
+
     
     
 <!-- FOOTER  -->        
    <footer id="footer">
       <div id="logofooterdiv">
-        <img id="footerlogo" src="img/logo2.png" type="image.png">
+        <img id="footerlogo" src="img/logo2.png" alt="Logo TH Flor Footer">
       </div>
       
      <div id="map1" class="footerlist">
