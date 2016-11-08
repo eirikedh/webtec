@@ -47,10 +47,6 @@ body{
 
 /* ----- BILDER ----- */
 
-img {
-  image-orientation: from-image;
-  }
-
 .backgroundimages{
   width: 100%;
   }
