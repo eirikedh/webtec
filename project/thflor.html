@@ -64,7 +64,7 @@
       
 <!-- ÅPNINGSTIDER  -->        
       <div class="opentime">
-        <button onclick="opentime()" class="open">Åpningstider</button>
+        <button onclick="opentimes()" class="open">Åpningstider</button>
         <div id="myOpentime" class="dropdown-content">
           <a href="#home">Hverdager 8-14</a>
           <a href="#about">Lørdager 10-12</a>
@@ -73,7 +73,11 @@
       </div>        
     </div>
 
-    
+<script>    
+function opentimes() {
+	document.getElementById("myOpentime").classList.toggle("show");
+	}
+</script>
     
 <!-- FOOTER  -->        
    <footer id="footer">
