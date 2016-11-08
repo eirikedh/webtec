@@ -59,9 +59,8 @@ body{
   border-width: 2px;
   border-color: #205F08;
   border-radius: 10px;
-  margin-bottom: -250px;
   position: relative;
-  bottom:380px;
+  top:100px;
   margin-right: 5%;
   }
 
@@ -111,6 +110,7 @@ div.leftline_text{
 
 .white_omoss{
   margin-top: 5%;
+  margin-bottom: 5%;
   text-align: left;
   float: left;
   width: 55%;
