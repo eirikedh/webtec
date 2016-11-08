@@ -498,6 +498,23 @@ div.galleri img {
     border-color: #205F08;
 }
 
+div.galleri_rotert {
+    margin: 2%;
+    float: left;
+    width: 180px;
+}
+
+div.galleri_rotert img {
+    width: 100%;
+    height: 150px;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 50px;
+    border-color: #205F08;
+    -webkit-transform:rotate(180deg);
+    transform:rotate(180deg);
+}
+
 /* ----- Produktbilder ----- */
 
 div.prodimg {
