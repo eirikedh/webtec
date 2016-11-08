@@ -576,7 +576,6 @@ div.bildetekst {
 
 #div_slideshow{
   width:850px;
-  position:absolute;
-  left:22%;
-  right: 25%;
+  margin-left:22%;
+  margin-right: 25%;
 }
