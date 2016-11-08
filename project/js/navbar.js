@@ -11,13 +11,14 @@ function navbar(link,text){
   nav.appendChild(li)
 }
 
+
+
+
 navbar("hjem.html", "Hjem")
 function vareprodukter(){
   let prodli = document.createElement("li")
   prodli.className = "dropdown"
-  let proda = document.createElement("a")
-  proli.innerHTML = ' <a href="javascript:void(0)" class="dropbtn" onclick="myFunction()">Våre Produkter</a>'
-  prodli.appendChild(proda)
+  prodli.innerHTML = ' <a href="#" class="dropbtn">Våre Produkter</a>'
   let prodiv = document.createElement("div")
   prodiv.className = "dropdown-content"
   prodiv.id = "myDropdown"
