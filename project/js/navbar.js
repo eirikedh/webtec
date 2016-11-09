@@ -27,13 +27,11 @@ function vareprodukter(){
   let varea = document.createElement("a")
   let tha = document.createElement("a")
   varea.href = "vare_produkter.html"
-  varea.appendChild(document.createTextNode("Våre Produkter"))
-  vareli.appendChild(varea)
+  varea.appendChild(document.createTextNode("Løn Gartneri"))
   tha.href = "thflor_produkter.html"
   tha.appendChild(document.createTextNode("TH Flor"))
-  thli.appendChild(tha)
-  prodiv.appendChild(vareli)
-  prodiv.appendChild(thli)
+  prodiv.appendChild(varea)
+  prodiv.appendChild(tha)
   prodli.appendChild(prodiv)
   nav.appendChild(prodli)
 }
@@ -42,7 +40,7 @@ navbar("thflor.html", "TH Flor")
 navbar("galleri.html", "Galleri")
 navbar("tips_og_triks", "Tips Og Triks")
 navbar("om_oss.html", "Om Oss")
-navbar("kontakt.html", "Kontak")
+navbar("kontakt.html", "Kontakt")
 
 navdiv.appendChild(nav)
 
