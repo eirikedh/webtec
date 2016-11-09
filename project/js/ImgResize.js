@@ -1,5 +1,5 @@
 function imageResize(bilde){
-  let cover = document.getElementById("overlay");
+  let cover = document.getElementById("fullsidediv");
   cover.style.display = "inline-block"
   bilde.style.width = "80%"
   bilde.style.height = "80%"
