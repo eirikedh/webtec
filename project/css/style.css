@@ -315,7 +315,7 @@ div.buttondiv button{
 
 /* ------------------------------ ÅPNINGSTIDER ------------------------------ */
 .open {
-    background-color: #244D15;
+    background-color: #245711;
     color: white;
     padding: 16px;
     font-size: 22px;
@@ -332,6 +332,8 @@ div.buttondiv button{
 .openTimeDiv {
     position: relative;
     display: inline-block;
+    margin-right: 25%;
+    margin-top: 2%;
 }
 
 .open-content {
