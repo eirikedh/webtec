@@ -33,13 +33,13 @@
 
     
 <!-- GALLERI 1  -->
-    <div class="white_galleri">
-        
-        <div id="checkSeason">
-            <input type="checkbox" name="sommer" value="Sommer"> Sommer <br>
-            <input type="checkbox" name="høst" value="Høst"> Høst <br>
-            <input type="checkbox" name="vinter" value="Vinter"> Vinter <br>
-            <input type="checkbox" name="vår" value="Vår"> Vår <br>
+<div class="white_galleri">
+
+        <div id="checkSeason" onChange="checkSeason()">
+            <input type="checkbox" id="sommer" name="sommer" value="Sommer"> Sommer <br>
+            <input type="checkbox" id="høst" name="høst" value="Høst"> Høst <br>
+            <input type="checkbox" id="vinter" name="vinter" value="Vinter"> Vinter <br>
+            <input type="checkbox" id="vår" name="vår" value="Vår"> Vår <br>
         </div>
 
         <h1 id="produkter_overskrift"> Alle våre blomster </h1>
@@ -56,7 +56,7 @@
             </div>
         </div>
 
-        <div class="vinter">        
+        <div class="vinter">
             <div class="responsive">
                 <div class="prodimg">
                     <a target="_blank" href="#">
@@ -67,49 +67,59 @@
             </div>
         </div>
 
-        <div class="responsive">
-            <div class="prodimg">
-                <a target="_blank" href="#">
-                    <img src="img/bilde_ild4.jpg" alt="blomst3" width="600" height="400">
-                </a>
-                <div class="desc">Stor Nøkkerose</div>
-            </div>
+        <div class="autumn">
+          <div class="responsive">
+              <div class="prodimg">
+                  <a target="_blank" href="#">
+                      <img src="img/bilde_ild4.jpg" alt="blomst3" width="600" height="400">
+                  </a>
+                  <div class="desc">Stor Nøkkerose</div>
+              </div>
+          </div>
         </div>
 
-        <div class="responsive">
-            <div class="prodimg">
-                <a target="_blank" href="#">
-                    <img src="img/bilde_ild5.jpg" alt="blomst3" width="600" height="400">
-                </a>
-                <div class="desc">Molte</div>
-            </div>
+        <div class="spring">
+          <div class="responsive">
+              <div class="prodimg">
+                  <a target="_blank" href="#">
+                      <img src="img/bilde_ild5.jpg" alt="blomst3" width="600" height="400">
+                  </a>
+                  <div class="desc">Molte</div>
+              </div>
+          </div>
         </div>
 
-        <div class="responsive">
-            <div class="prodimg">
-                <a target="_blank" href="#">
-                    <img src="img/bilde_ild6.jpg" alt="blomst4" width="600" height="400">
-                </a>
-                <div class="desc">Geitrams</div>
-            </div>
+        <div class="autumn">
+          <div class="responsive">
+              <div class="prodimg">
+                  <a target="_blank" href="#">
+                      <img src="img/bilde_ild6.jpg" alt="blomst4" width="600" height="400">
+                  </a>
+                  <div class="desc">Geitrams</div>
+              </div>
+          </div>
         </div>
 
-        <div class="responsive">
-            <div class="prodimg">
-                <a target="_blank" href="#">
-                    <img src="img/bilde_ild7.JPG" alt="blomst4" width="600" height="400">
-                </a>
-                <div class="desc">Kusymre</div>
-            </div>
+        <div class="summer">
+          <div class="responsive">
+              <div class="prodimg">
+                  <a target="_blank" href="#">
+                      <img src="img/bilde_ild7.JPG" alt="blomst4" width="600" height="400">
+                  </a>
+                  <div class="desc">Kusymre</div>
+              </div>
+          </div>
         </div>
 
-        <div class="responsive">
-            <div class="prodimg">
-                <a target="_blank" href="#">
-                    <img src="img/bilde_ild8.jpg" alt="blomst3" width="600" height="400">
-                </a>
-                <div class="desc">Rødsildre</div>
-            </div>
+        <div class="spring">
+          <div class="responsive">
+              <div class="prodimg">
+                  <a target="_blank" href="#">
+                      <img src="img/bilde_ild8.jpg" alt="blomst3" width="600" height="400">
+                  </a>
+                  <div class="desc">Rødsildre</div>
+              </div>
+          </div>
         </div>
 
         <div class="responsive">
@@ -183,7 +193,8 @@
      </footer>
 
     
-<!-- JAVASCRIPT  -->        
+<!-- JAVASCRIPT  -->      
+    <script src="js/galleri.js"></script>
     <script src="js/navbar.js"></script>
     <script src="js/style.js"></script>
 
