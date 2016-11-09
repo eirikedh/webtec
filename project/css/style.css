@@ -201,7 +201,6 @@ div.leftline_text{
 }
 
 #nav li a:hover {
-  font-weight: bold;
   text-decoration: underline;
   text-shadow: 1px 1px black;
 }
