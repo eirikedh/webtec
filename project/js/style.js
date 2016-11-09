@@ -11,10 +11,15 @@ function buttonclick3() {
 	window.location.href="galleri.html";
 	}
 
+
+function opentime() {
+	document.getElementById("myOpentime").style.display = "block";
+	}
+/*
 function opentime() {
 	document.getElementById("myOpentime").classList.toggle("show");
 	}
-
+*/
 
   var navMenu = document.getElementById("nav");
   
