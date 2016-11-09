@@ -1,4 +1,5 @@
 
+/* -------------------- HJEMMESIDE-BUTTONS ---------------------- */
 function buttonclick1() {
 	window.location.href="om_oss.html";
   	}
@@ -12,14 +13,29 @@ function buttonclick3() {
 	}
 
 
-function opentime() {
-	document.getElementById("myOpentime").style.display = "block";
-	}
-/*
-function opentime() {
+/* -------------------- THFLOR-DROPDOWN ---------------------- */
+
+/* When the user clicks on the button, toggle between hiding and showing the dropdown content */
+function openTimes() {
 	document.getElementById("myOpentime").classList.toggle("show");
 	}
-*/
+
+/* Close the dropdown if the user clicks outside of it */
+window.onclick = function(event) {
+	if (!event.target.matches('.open')) {
+		let dropdowns = document.getElementsByClassName("open-content");
+		let i;
+		for (i = 0; i < dropdowns.length; i++) {
+			let openDropdown = dropdowns[i];
+			if (openDropdown.classList.contains('show')) {
+				openDropdown.classList.remove('show');
+      			}
+		}
+	}
+}
+
+
+/* -------------------- NAVBAR DROPDOWN ---------------------- */
 
   var navMenu = document.getElementById("nav");
   
