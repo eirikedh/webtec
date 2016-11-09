@@ -272,14 +272,14 @@ div.buttondiv button{
   }
 
 /* ------------------------------ VIDEO ------------------------------ */
-#vid1 {
+.vid1 {
   margin-right: 4%;
   margin-bottom: 6%;
   margin-top: 3%;
  }
 
 
-/* ----- KART ----- */
+/* ------------------------------ KART ------------------------------ */
 #kart1 {
   float: left;
   margin-left: 10%;
