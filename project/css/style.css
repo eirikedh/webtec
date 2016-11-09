@@ -1,4 +1,4 @@
-/* ------ BODY ------ */
+/* ------------------------------ BODY ------------------------------ */
 body{
   width: 100%;
   margin: 0;
@@ -9,7 +9,7 @@ body{
 
 }
 
-/* ----- BOXES ------ */
+/* ------------------------------ BOXES ------------------------------ */
 .greenbox{
   height: 280px;
   width: 100%;
@@ -45,7 +45,7 @@ body{
   }
 
 
-/* ----- BILDER ----- */
+/* ------------------------------ BILDER ------------------------------ */
 
 .backgroundimages{
   width: 100%;
@@ -173,7 +173,7 @@ div.leftline_text{
 
 
 
-/* ----- NAVIGASJONS-BAR ----- */
+/* ------------------------------ NAVIGASJONS-BAR ------------------------------ */
 #nav {
   list-style-type: none;
   margin: 0;
@@ -236,14 +236,14 @@ div.leftline_text{
 
   
 
-/* ----- LOGO ----- */
+/* ------------------------------ LOGO ------------------------------ */
 #logo{
   width: 60%;
 
 }
 
 
-/* ----- BUTTONS ----- */
+/* ------------------------------ BUTTONS ------------------------------ */
 button {
   font-size: 20px;
   background-color: #245711;
@@ -273,8 +273,7 @@ div.buttondiv button{
   margin-left: 8%;
   }
 
-/* ----- VIDEO ----- */
-
+/* ------------------------------ VIDEO ------------------------------ */
 #vid1 {
   margin-right: 4%;
   margin-bottom: 6%;
@@ -283,7 +282,6 @@ div.buttondiv button{
 
 
 /* ----- KART ----- */
-
 #kart1 {
   float: left;
   margin-left: 10%;
@@ -315,7 +313,7 @@ div.buttondiv button{
   }
 
 
-/* ----- ÅPNINGSTIDER ----- */
+/* ------------------------------ ÅPNINGSTIDER ------------------------------ */
 #open {
   background-color: #245711;
   color: white;
@@ -330,7 +328,7 @@ div.buttondiv button{
   background-color: #3e8e41;
   }
 
-.opentime {
+.openTimeDiv {
   float: right;
   position: relative;
   display: inline-block;  
@@ -355,7 +353,7 @@ div.buttondiv button{
   }
 
 
-/* ----- FOOTER ----- */
+/* ------------------------------ FOOTER ------------------------------ */
 #footer{
   height: 200px;
   width: 100%;
@@ -509,7 +507,7 @@ div.galleri_rotert img {
     transform:rotate(180deg);
 }
 
-/* ----- Produktbilder ----- */
+/* ------------------------------ Produktbilder ------------------------------ */
 
 div.prodimg {
     border: 1px solid #ccc;
@@ -535,7 +533,6 @@ div.desc {
 * {
     box-sizing: border-box;
 }
-
 
 
 
@@ -567,14 +564,12 @@ div.desc {
 #produkter_overskrift {
     text-align: left;
     font-size: 50px;
-}
-
-
+  }
 
 div.bildetekst {
     padding: 15px;
     text-align: center;
-}
+  }
 
 .background_slideshow{
   height:612px;
@@ -591,7 +586,7 @@ div.bildetekst {
   margin-right: 25%;
 }
 
-/*Image Resize */
+/* ------------------------------ Image Resize ------------------------------ */
 #fullsidediv{
     opacity:0.9;
     background-color:#000;
