@@ -54,6 +54,16 @@ body{
   color: #205F08;
   }
 
+.white_galleri2{
+  margin: auto;
+  width: 90%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  font-size: 22px;
+  color: #205F08;
+  height: 700px;
+  }
+
 
 /* ------------------------------ BILDER ------------------------------ */
 
@@ -537,7 +547,7 @@ div.galleri_rotert img {
     cursor: pointer;
 }
 
-/* ------------------------------ Produktbilder ------------------------------ */
+/* ------------------------------ PRODUKTBILDER ------------------------------ */
 
 div.prodimg img {
   width: 90%;
@@ -602,10 +612,16 @@ div.bildetekst {
 }
 
 #div_slideshow{
-  width:850px;
-  margin-left:22%;
-  margin-right: 25%;
+  margin: auto;
+  width: 60%;
+  height: 610px;
 }
+
+#div_slideshow img {
+  width: 100%;
+  height: 100%;
+  }
+  
 
 /* ------------------------------ Image Resize ------------------------------ */
 #fullsidediv{
