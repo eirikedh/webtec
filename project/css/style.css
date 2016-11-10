@@ -62,7 +62,7 @@ body{
   }
 
 #omoss_bilde1 img{
-  width:30%;
+  width:29%;
   height:20%;
   float:right;
   border-style: solid;
@@ -213,6 +213,8 @@ div.leftline_text{
   background-color: #244D15;
   font-family: "Trebuchet MS", Arial;
   width: 100%;
+  padding-top:5px;
+  padding-bottom: 5px;
 }
 
 #nav li {
