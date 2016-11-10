@@ -566,7 +566,9 @@ div.prodimg img {
   height: 300px;
   }
 
-.rotert.prodimg img{
+div.rotert.prodimg img{
+  width: 90%;
+  height: 300px;
   -webkit-transform:rotate(180deg);
   transform:rotate(180deg);
   }
