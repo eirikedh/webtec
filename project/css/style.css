@@ -223,16 +223,6 @@ div.leftline_text{
   width: 14%;
 }
 
-/*
-@media screen and (max-device-aspect-ratio:16/10){
-  #nav li {
-    float: left;
-    background-color: #244D15;
-    margin-left:6%
-  }
-}
-*/
-
 #nav li a,
 .dropbtn {
   display: block;
@@ -432,38 +422,12 @@ div.buttondiv button{
   font-family: "Trebuchet MS", Arial
 }
 
-/*
-#logofooterdiv{
-  width: 60%;
-  padding: 0;
-  margin: 0;
-  position: absolute;
-}
-*/
 
 #footerlogo{
   width: 500px;
   float: left;
 }
 
-/*
-@media screen and (max-device-aspect-ratio:16/10){
-  #logofooterdiv{
-    width: 60%;
-    height: 156px;
-    padding: 0;
-    margin: 0;
-    position: absolute;
-  }
-
-  #footerlogo{
-    width: 50%;
-    float: left;
-    margin-bottom: 0;
-    padding-bottom: 0;
-  }
-}
-*/
 
 #map1{
   left:50%;
