@@ -274,11 +274,16 @@ div.buttondiv button{
 
 /* ------------------------------ CHECKBOXES ------------------------------ */
 
+#checkSeason {
+  margin: auto;
+  width: 40%;
+  }
+
 #checkSeason input {
   width: 20px;
-  height: 20px;
-  
-}
+  height: 20px;  
+  margin-left: 10%;
+  }
 
 
 
