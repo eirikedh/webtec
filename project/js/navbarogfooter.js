@@ -27,9 +27,9 @@ function vareprodukter(){
   let varea = document.createElement("a")
   let tha = document.createElement("a")
   varea.href = "vare_produkter.html"
-  varea.appendChild(document.createTextNode("Løn Gartneri"))
+  varea.appendChild(document.createTextNode("Gartneriet"))
   tha.href = "thflor_produkter.html"
-  tha.appendChild(document.createTextNode("TH Flor"))
+  tha.appendChild(document.createTextNode("Utsalget"))
   prodiv.appendChild(varea)
   prodiv.appendChild(tha)
   prodli.appendChild(prodiv)
