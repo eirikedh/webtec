@@ -157,13 +157,16 @@ div.leftline_text{
   font-size: 24px;
   }
 
+#thflor_txt2{
+  height: 200px;
+}
+
 #thflor_txt2 h4 {
   margin-top: 4%;
   margin-left: 30%;
   color: #205F08;
   font-size: 24px;
   float: left;
-  margin-bottom: 8%;
   }
 
 #thflor_txt2 p {
