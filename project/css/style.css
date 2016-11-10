@@ -203,22 +203,25 @@ div.leftline_text{
 
 
 /* ------------------------------ NAVIGASJONS-BAR ------------------------------ */
+
+
 #nav {
   list-style-type: none;
-  margin: 0;
-  padding: 5px;
+  margin: auto;
+  padding: 0;
   overflow: hidden;
   background-color: #244D15;
-  text-align: center;
-  font-family: "Trebuchet MS", Arial
+  font-family: "Trebuchet MS", Arial;
+  width: 100%;
 }
 
 #nav li {
   float: left;
   background-color: #244D15;
-  margin-left:6.5%
+  width: 14%;
 }
 
+/*
 @media screen and (max-device-aspect-ratio:16/10){
   #nav li {
     float: left;
@@ -226,6 +229,7 @@ div.leftline_text{
     margin-left:6%
   }
 }
+*/
 
 #nav li a,
 .dropbtn {
@@ -234,24 +238,23 @@ div.leftline_text{
   text-decoration: none;
   color: #F8F8F8;
   font-size: 20px;
-}
+  }
 
 #nav li a:hover {
   text-decoration: underline;
   text-shadow: 1px 1px black;
-}
+  }
 
 #nav li.dropdown {
   display: inline-block;
-}
+  }
 
 #nav .dropdown-content {
   display: none;
   position: absolute;
   background-color: #244D15;
-  min-width: 160px;
-
-}
+  width: 14%;
+  }
 
 #nav .dropdown-content a {
   color: #F8F8F8;
@@ -259,23 +262,20 @@ div.leftline_text{
   text-decoration: none;
   display: block;
   text-align: ;
-}
+  }
 
-#nav .dropdown-content a:hover {
- //kan bli nyttig senere
-}
 
 #nav .show {
   display: block;
-}
+  }
 
   
 
 /* ------------------------------ LOGO ------------------------------ */
+
 #logo{
   width: 60%;
-
-}
+  }
 
 
 /* ------------------------------ BUTTONS ------------------------------ */
