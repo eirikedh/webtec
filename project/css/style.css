@@ -539,7 +539,10 @@ div.prodimg:hover {
 div.prodimg img {
     width: 100%;
     height: 350px;
-
+}
+div.rotert.prodimg img{
+  -webkit-transform:rotate(180deg);
+  transform:rotate(180deg);
 }
 
 div.desc {
