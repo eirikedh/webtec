@@ -435,12 +435,10 @@ div.buttondiv button{
   font-family: "Trebuchet MS", Arial
 }
 
-
 #footerlogo{
   width: 500px;
   float: left;
-}
-
+  }
 
 #map1{
   left:50%;
@@ -449,7 +447,7 @@ div.buttondiv button{
   position: absolute;
   margin-top: 40px;
   text-align: left;
-}
+  }
 
 #map2{
   left:60%;
@@ -459,13 +457,16 @@ div.buttondiv button{
   border-left: thick solid #F8F8F8;
   margin-top: 40px;
   text-align: left;
-}
+  }
+
 #map2 ul{
   padding-left: 60px;
-}
+  }
+
 #map2 li ul{
   padding-left: 20px;
-}
+  }
+
 #map3{
   left:80%;
   width: 19%;
@@ -474,27 +475,28 @@ div.buttondiv button{
   margin-top: 40px;
   text-align: left;
   border-left: thick solid #F8F8F8;
-}
+  }
 
 .footerlist ul{
   margin: 0
-}
+  }
 
 .footerlist li{
   list-style: none;
-}
+  }
 
 .footerlist li a{
-      display: block;
-      padding: 10px 16px;
-      text-decoration: none;
-      color: #F8F8F8;
-      font-size: 18px;
-}
+  display: block;
+  padding: 10px 16px;
+  text-decoration: none;
+  color: #F8F8F8;
+  font-size: 18px;
+  }
+
 .footerlist li a:hover{
   text-decoration: underline;
   text-shadow: 1px 1px black;
-}
+  }
 
 #produkter{
   display: block;
@@ -505,47 +507,47 @@ div.buttondiv button{
   text-decoration: underline;
   color: #F8F8F8;
   font-size: 18px;
-}
+  }
 
 #map2 ul li ul li{
   list-style: square;
-}
+  }
 
 
 div.galleri {
-    margin: 2%;
-    float: left;
-    width: 180px;
-}
+  margin: 2%;
+  float: left;
+  width: 180px;
+  }
 
 
 div.galleri img {
-    width: 100%;
-    height: 150px;
-    border-style: solid;
-    border-width: 2px;
-    border-radius: 50px;
-    border-color: #205F08;
-    cursor: pointer;
-}
+  width: 100%;
+  height: 150px;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 50px;
+  border-color: #205F08;
+  cursor: pointer;
+  }
 
 div.galleri_rotert {
-    margin: 2%;
-    float: left;
-    width: 180px;
-}
+  margin: 2%;
+  float: left;
+  width: 180px;
+  }
 
 div.galleri_rotert img {
-    width: 100%;
-    height: 150px;
-    border-style: solid;
-    border-width: 2px;
-    border-radius: 50px;
-    border-color: #205F08;
-    -webkit-transform:rotate(180deg);
-    transform:rotate(180deg);
-    cursor: pointer;
-}
+  width: 100%;
+  height: 150px;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 50px;
+  border-color: #205F08;
+  -webkit-transform:rotate(180deg);
+  transform:rotate(180deg);
+  cursor: pointer;
+  }
 
 /* ------------------------------ PRODUKTBILDER ------------------------------ */
 
@@ -564,7 +566,6 @@ div.desc {
   text-align: center;
   font-size: 22px;;
   } 
-
 
 .responsive {
   margin: auto;
@@ -587,19 +588,19 @@ div.desc {
 }
 
 .clearfix:after {
-    content: "";
-    display: table;
-    clear: both;
-}
+  content: "";
+  display: table;
+  clear: both;
+  }
 
 #produkter_overskrift {
-    text-align: left;
-    font-size: 50px;
+  text-align: left;
+  font-size: 50px;
   }
 
 div.bildetekst {
-    padding: 15px;
-    text-align: center;
+  padding: 15px;
+  text-align: center;
   }
 
 .background_slideshow{
@@ -609,13 +610,13 @@ div.bildetekst {
   border-top: solid;
   border-bottom: solid;
   border-width: 5px 0px 10px 0px;
-}
+  }
 
 #div_slideshow{
   margin: auto;
   width: 60%;
-  height: 610px;
-}
+  height: 612px;
+  }
 
 #div_slideshow img {
   width: 100%;
@@ -625,16 +626,16 @@ div.bildetekst {
 
 /* ------------------------------ Image Resize ------------------------------ */
 #fullsidediv{
-    opacity:0.9;
-    background-color:#000;
-    position:fixed;
-    width:100%;
-    height:100%;
-    top:0px;
-    left:0px;
-    z-index:1000;
-    display: none;
-}
+  opacity:0.9;
+  background-color:#000;
+  position:fixed;
+  width:100%;
+  height:100%;
+  top:0px;
+  left:0px;
+  z-index:1000;
+  display: none;
+  }
 
 
 /* ------------------------------ FACEBOOK LINK ------------------------------ */
