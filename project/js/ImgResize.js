@@ -4,8 +4,7 @@ function imageResize(bilde){
   let bilde2 = bilde.cloneNode(true)
   cover.style.display = "inline-block"
   resized.appendChild(bilde2)
-  bilde2.style.width = "80%"
-  bilde2.style.height = "80%"
+  bilde2.style.height = "85%"
   bilde2.style.position = "fixed";
   bilde2.style.margin = "auto"
   bilde2.style.zIndex = 10000;
