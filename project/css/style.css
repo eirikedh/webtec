@@ -271,6 +271,17 @@ div.buttondiv button{
   margin-left: 8%;
   }
 
+
+/* ------------------------------ CHECKBOXES ------------------------------ */
+
+#checkSeason input {
+  width: 20px;
+  height: 20px;
+  
+}
+
+
+
 /* ------------------------------ VIDEO ------------------------------ */
 .vid1 {
   margin-right: 4%;
