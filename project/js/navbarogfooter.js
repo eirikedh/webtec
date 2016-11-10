@@ -67,13 +67,13 @@ function createSpecialList(){
   let li = document.createElement("li")
   let a = document.createElement("a")
   a.href = "vare_produkter.html"
-  a.appendChild(document.createTextNode("Løn Gartneri"))
+  a.appendChild(document.createTextNode("Gartneriet"))
   li.appendChild(a)
   nyul.appendChild(li)
   let THli = document.createElement("li")
   let THa = document.createElement("a")
   THa.href = "thflor_produkter"
-  THa.appendChild(document.createTextNode("TH Flor"))
+  THa.appendChild(document.createTextNode("Utsalget"))
   THli.appendChild(THa)
   nyul.appendChild(THli)
 }
