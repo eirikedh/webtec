@@ -551,14 +551,14 @@ div.prodimg img {
   width: 90%;
   height: 300px;
   }
-
+/*
 div.rotert_prodimg img{
   width: 90%;
   height: 300px;
   -webkit-transform:rotate(180deg);
   transform:rotate(180deg);
   }
-
+*/
 div.desc {
   padding: 15px;
   text-align: center;
