@@ -30,20 +30,21 @@
     <div class="greenbox_small">
         <h3>Våre Produkter</h3>
     </div>
+<!-- Checkbox -->
+<div id="checkSeason">
+        <input type="checkbox" id="sommer" name="season" value="Sommer" onclick='checkSeason("sommer", "summer")' checked> Sommer 
+        <input type="checkbox" id="høst" name="season" value="Høst" onclick='checkSeason("høst", "autumn")' checked> Høst 
+        <input type="checkbox" id="vinter" name="season" value="Vinter" onclick='checkSeason("vinter", "vinter")' checked> Vinter 
+        <input type="checkbox" id="vår" name="season" value="Vår" onclick='checkSeason( "vår", "spring")' checked> Vår 
+        <input type="checkbox" id="produkt" name="season" value="Vår" onclick='checkSeason( "produkt", "prod")' checked> Produkter 
+    </div>
 
+    <p id="season-desc"> Ønsker du å sortere oversikten over blomstene våre kan du klikke i checkboxene for å ta vekk en sesong. </p>
+
+    
+    
 <!-- GALLERI 1  -->
     <div class="white_galleri">
-
-        <div id="checkSeason">
-            <input type="checkbox" id="sommer" name="season" value="Sommer" onclick='checkSeason("sommer", "summer")' checked> Sommer 
-            <input type="checkbox" id="høst" name="season" value="Høst" onclick='checkSeason("høst", "autumn")' checked> Høst 
-            <input type="checkbox" id="vinter" name="season" value="Vinter" onclick='checkSeason("vinter", "vinter")' checked> Vinter 
-            <input type="checkbox" id="vår" name="season" value="Vår" onclick='checkSeason( "vår", "spring")' checked> Vår 
-            <input type="checkbox" id="produkt" name="season" value="Vår" onclick='checkSeason( "produkt", "prod")' checked> Produkter 
-        </div>
-
-        <p id="season-desc"> Ønsker du å sortere oversikten over blomstene våre kan du klikke i checkboxene for å ta vekk en sesong. </p>
-
         <div class="summer">
             <div class="responsive">
                 <div class="prodimg" class="rotert.prodimg">
