@@ -209,8 +209,15 @@ div.leftline_text{
 #nav li {
   float: left;
   background-color: #244D15;
-  margin-left: 7%;
-  
+  margin-left:6.5%
+}
+
+@media screen and (max-device-aspect-ratio:16/10){
+  #nav li {
+    float: left;
+    background-color: #244D15;
+    margin-left:6%
+  }
 }
 
 #nav li a,
