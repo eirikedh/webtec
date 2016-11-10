@@ -62,8 +62,8 @@ nav.onmouseover = function(e) {
 
 function mouseOut(e) {
 	var remove = true;
-	if (e.toElement.parentElement != null) {
-		if (e.toElement.parentElement.className == "dropdown-content show") {
+	if (e.relatedTarget.parentElement != null) {
+		if (e.relatedTarget.parentElement.className == "dropdown-content show") {
 			remove = false;
 		}
 	}
