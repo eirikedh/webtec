@@ -1,9 +1,9 @@
 function imageResize(bilde){
   let cover = document.getElementById("fullsidediv");
-  let whitegallery =document.getElementById("white_galleri")
+  let resized = document.getElementById("ResizedImage")
   let bilde2 = bilde.cloneNode(true)
   cover.style.display = "inline-block"
-  whitegallery.appendChild(bilde2)
+  resized.appendChild(bilde2)
   bilde2.style.width = "80%"
   bilde2.style.height = "80%"
   bilde2.style.position = "fixed";
@@ -12,8 +12,6 @@ function imageResize(bilde){
   bilde2.style.left = "200px";
   bilde2.style.opacity = 1
 
-  //Ved bruk av klone var det lettest å ikke skape problemer i selve galleriet når vi gikk tilbake fra bildet
-    
   cover.addEventListener("click", function (){
     cover.style.display = "none";
     bilde2.style.position ="static"
@@ -25,4 +23,3 @@ function imageResize(bilde){
     bilde2.parentElement.removeChild(bilde2);
   })
 }
-
