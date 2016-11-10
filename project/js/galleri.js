@@ -131,7 +131,7 @@ function checkSeason() {
       }
     }
 
-  /* HVIS ALLE SESONGENE ER VALGT: VISES ALLE BLOMSTER */
+  /* HVIS ALLE SESONGENE ER VALGT: VISES ALLE BLOMSTER 
   if  (sommer.checked == true && høst.checked == true && vinter.checked == true && vår.checked == true)  {
     let season1 = document.getElementsByClassName("summer");
     for (i = 0; i < season1.length; i++) {
@@ -150,5 +150,5 @@ function checkSeason() {
       season4[i].style.display = 'block';
       }
     }
-
+    */
 }
