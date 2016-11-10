@@ -13,4 +13,4 @@ function loop() {
     setTimeout(loop, 4000);
 }
 
-//Hentet fra W3
+//Hentet fra W3 ---> http://www.w3schools.com/howto/howto_js_slideshow.asp
