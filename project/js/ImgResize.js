@@ -7,6 +7,7 @@ function imageResize(bilde){
   bilde2.style.width = "80%"
   bilde2.style.height = "80%"
   bilde2.style.position = "fixed";
+  bilde2.style.margin = "auto"
   bilde2.style.zIndex = 10000;
   bilde2.style.top = "80px";
   bilde2.style.left = "200px";
