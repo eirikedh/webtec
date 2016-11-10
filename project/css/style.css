@@ -45,6 +45,16 @@ body{
   }
 
 
+.white_galleri{
+  margin: auto;
+  width: 90%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  font-size: 22px;
+  color: #205F08;
+  }
+
+
 /* ------------------------------ BILDER ------------------------------ */
 
 .backgroundimages{
@@ -514,19 +524,6 @@ div.buttondiv button{
   list-style: square;
 }
 
-
-.white_galleri{
-  margin-top: 5%;
-  margin-bottom: 5%;
-  text-align: left;
-  float: left;
-  width: 90%;
-  margin-left: 5%;
-  margin-right: 2%;
-  font-size: 22px;
-  color: #205F08;
-  height:80%;
-  }
 
 div.galleri {
     margin: 2%;
