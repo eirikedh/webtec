@@ -73,7 +73,7 @@ function createSpecialList(){
   let THli = document.createElement("li")
   let THa = document.createElement("a")
   THa.href = "thflor_produkter"
-  THa.appendChild(document.createTextNode("TH FLor"))
+  THa.appendChild(document.createTextNode("TH Flor"))
   THli.appendChild(THa)
   nyul.appendChild(THli)
 }
@@ -89,11 +89,12 @@ function createImage(){
 createImage()
 
 createListElement("hjem.html","Hjem", "map1ul");
-createListElement("galleri.html","Galleri", "map1ul")
 createListElement("om_oss.html","Om Oss", "map1ul")
+createListElement("thflor.html","TH Flor", "map3ul");
 
 createSpecialList()
 
-createListElement("thflor.html","Hjem", "map3ul");
+createListElement("galleri.html","Galleri", "map1ul")
+createListElement("tips_og_triks.html","Tips og Triks", "map3ul");
 createListElement("kontakt.html","Kontakt", "map3ul")
-createListElement("tips_og_triks.html","Tips og Triks", "map3ul")
+
