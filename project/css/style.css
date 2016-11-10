@@ -647,6 +647,9 @@ div.bildetekst {
   height: 600px;
   margin-top: 2%;
   margin-bottom: 5%;
+  border: none;
+  overflow: hidden;
   }
+
 
 
