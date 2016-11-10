@@ -7,121 +7,193 @@
 </head>
 <body>
 
-<div>
-    <img id="logo" src="img/logo_transparent.png" type="image.png">
-</div>
+<!-- LOGO  -->
+    <div>
+      <a href="hjem.html">
+        <img id="logo" src="img/logo_thflor.png" alt="TH Flor Logo">
+      </a>
+    </div>
 
+
+<!-- NAVIGASJONS-BAR  -->
     <div id="navdiv">
     </div>
 
-<div>
-    <img class="backgroundimages" src="img/bilde_ild13crop.jpg" type="image.jpg">
-</div>
 
-<div class="greenbox_small">
-    <h3>TH Flor Produkter</h3>
-</div>
+<!-- BAKGRUNNSBILDE 1  -->
+    <div>
+        <img class="backgroundimages" src="img/bilde_ild13crop.jpg" alt="Ild 13">
+    </div>
 
-<div class="white_galleri">
 
-    <h1 id="produkter_overskrift">TH Flor blomster og utstyr</h1>
+<!-- GREENBOX SMALL 1  -->
+    <div class="greenbox_small">
+        <h3>Våre Produkter</h3>
+    </div>
 
-    <div class="responsive">
-        <div class="prodimg">
-            <a target="_blank" href="#">
-                <img src="img/flor/flor1.jpg" alt="blomst1" width="300" height="200">
-            </a>
-            <div class="desc">Blåveis</div>
+<!-- GALLERI 1  -->
+    <div class="white_galleri">
+
+        <div id="checkSeason">
+            <input type="checkbox" id="sommer" name="season" value="Sommer" onclick='checkSeason("sommer", "summer")' checked> Sommer 
+            <input type="checkbox" id="høst" name="season" value="Høst" onclick='checkSeason("høst", "autumn")' checked> Høst 
+            <input type="checkbox" id="vinter" name="season" value="Vinter" onclick='checkSeason("vinter", "vinter")' checked> Vinter 
+            <input type="checkbox" id="vår" name="season" value="Vår" onclick='checkSeason( "vår", "spring")' checked> Vår 
+            <input type="checkbox" id="produkt" name="season" value="Vår" onclick='checkSeason( "produkt", "prod")' checked> Vår 
         </div>
-    </div>
 
-    <div class="responsive">
-        <div class="prodimg">
-            <a target="_blank" href="#">
-                <img src="img/flor/flor2.jpg" alt="blomst2" width="600" height="400">
-            </a>
-            <div class="desc">Vivendel</div>
+        <p id="season-desc"> Ønsker du å sortere oversikten over blomstene våre kan du klikke i checkboxene for å ta vekk en sesong. </p>
+
+        <div class="summer">
+            <div class="responsive">
+                <div class="prodimg" class="rotert.prodimg">
+                    <a target="_blank" href="#">
+                        <img src="img/bilde_ild2.jpg" alt="blomst1" width="300" height="200">
+                    </a>
+                    <div class="desc">Blåveis
+                    </div>
+                </div>
+            </div>
         </div>
-    </div>
 
-
-    <div class="responsive">
-        <div class="prodimg">
-            <a target="_blank" href="#">
-                <img src="img/flor/flor3.jpg" alt="blomst3" width="600" height="400">
-            </a>
-            <div class="desc">Stor Nøkkerose</div>
+        <div class="vinter">
+            <div class="responsive">
+                <div class="prodimg" class="rotert.prodimg">
+                    <a target="_blank" href="#">
+                        <img src="img/bilde_ild3.jpg" alt="blomst2" width="600" height="400">
+                    </a>
+                    <div class="desc">Vivendel</div>
+                </div>
+            </div>
         </div>
-    </div>
 
-    <div class="responsive">
-        <div class="prodimg">
-            <a target="_blank" href="#">
-                <img src="img/flor/flor4.jpg" alt="blomst3" width="600" height="400">
-            </a>
-            <div class="desc">Molte</div>
+        <div class="autumn">
+          <div class="responsive">
+              <div class="prodimg" class="rotert.prodimg">
+                  <a target="_blank" href="#">
+                      <img src="img/bilde_ild4.jpg" alt="blomst3" width="600" height="400">
+                  </a>
+                  <div class="desc">Stor Nøkkerose</div>
+              </div>
+          </div>
         </div>
-    </div>
 
-    <div class="responsive">
-        <div class="prodimg">
-            <a target="_blank" href="#">
-                <img src="img/flor/flor5.jpg" alt="blomst4" width="600" height="400">
-            </a>
-            <div class="desc">Geitrams</div>
+        <div class="spring">
+          <div class="responsive">
+              <div class="prodimg" class="rotert.prodimg">
+                  <a target="_blank" href="#">
+                      <img src="img/bilde_ild5.jpg" alt="blomst3" width="600" height="400">
+                  </a>
+                  <div class="desc">Molte</div>
+              </div>
+          </div>
         </div>
-    </div>
 
-    <div class="responsive">
-        <div class="prodimg">
-            <a target="_blank" href="#">
-                <img src="img/flor/flor6.jpg" alt="blomst4" width="600" height="400">
-            </a>
-            <div class="desc">Kusymre</div>
+        <div class="autumn">
+          <div class="responsive">
+              <div class="prodimg" class="rotert.prodimg">
+                  <a target="_blank" href="#">
+                      <img src="img/bilde_ild6.jpg" alt="blomst4" width="600" height="400">
+                  </a>
+                  <div class="desc">Geitrams</div>
+              </div>
+          </div>
         </div>
-    </div>
 
-    <div class="responsive">
-        <div class="prodimg">
-            <a target="_blank" href="#">
-                <img src="img/flor/flor7.jpg" alt="blomst3" width="600" height="400">
-            </a>
-            <div class="desc">Rødsildre</div>
+        <div class="summer">
+          <div class="responsive">
+              <div class="prodimg">
+                  <a target="_blank" href="#">
+                      <img src="img/bilde_ild7.JPG" alt="blomst4" width="600" height="400">
+                  </a>
+                  <div class="desc">Kusymre</div>
+              </div>
+          </div>
         </div>
-    </div>
 
-    <div class="responsive">
-        <div class="prodimg">
-            <a target="_blank" href="#">
-                <img src="img/flor/flor8.jpg" alt="blomst4" width="600" height="400">
-            </a>
-            <div class="desc">Bergfrue</div>
+        <div class="spring">
+          <div class="responsive">
+              <div class="prodimg" class="rotert.prodimg">
+                  <a target="_blank" href="#">
+                      <img src="img/bilde_ild8.jpg" alt="blomst3" width="600" height="400">
+                  </a>
+                  <div class="desc">Rødsildre</div>
+              </div>
+          </div>
         </div>
-    </div>
 
-    <div class="responsive">
-        <div class="prodimg">
-            <a target="_blank" href="#">
-                <img src="img/flor/flor9.jpg" alt="blomst4" width="600" height="400">
-            </a>
-            <div class="desc">Marisko</div>
+
+        <div class="autumn">
+          <div class="responsive">
+              <div class="prodimg" class="rotert.prodimg">
+                  <a target="_blank" href="#">
+                      <img src="img/bilde_ild9.jpg" alt="blomst4" width="600" height="400">
+                  </a>
+                  <div class="desc">Bergfrue</div>
+              </div>
+          </div>
         </div>
+
+        <div class="summer">
+          <div class="responsive">
+              <div class="prodimg" class="rotert.prodimg">
+                  <a target="_blank" href="#">
+                      <img src="img/bilde_ild10.jpg" alt="blomst4" width="600" height="400">
+                  </a>
+                  <div class="desc">Marisko</div>
+              </div>
+          </div>
+        </div>
+
+        <div class="spring">
+          <div class="responsive">
+              <div class="prodimg" class="rotert.prodimg">
+                  <a target="_blank" href="#">
+                      <img src="img/bilde_ild11.jpg" alt="blomst4" width="600" height="400">
+                  </a>
+                  <div class="desc">Bakkekløver</div>
+              </div>
+          </div>
+        </div>
+
+        <div class="vinter">
+          <div class="responsive">
+              <div class="prodimg" class="rotert.prodimg">
+                  <a target="_blank" href="#">
+                      <img src="img/bilde_ild12.jpg" alt="blomst4" width="600" height="400">
+                  </a>
+                  <div class="desc">Klokkelyng</div>
+              </div>
+          </div>
+        </div>
+
+        <div class="prod">
+            <div class="responsive">
+                <div class="prodimg" class="rotert.prodimg">
+                    <a target="_blank" href="#">
+                        <img src="img/bilde_ild2.jpg" alt="blomst1" width="300" height="200">
+                    </a>
+                    <div class="desc"> Et produkt
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="clearfix"></div>
+
+        <div id="vare_produkter_txt">
+            <p> TH Flor er et Tønsberg-basert firma som driver utsalgt av blomster. 
+                Vi har hatt utsalg på Tønsberg torg de to siste årene, nytt i år er utsalg også på Basberg i Tønsberg. 
+                Vi satser på lokalprodusertesommerblomster fra gartnerier som blant annet Løn Gartneri.</p>
+            <p><a href="thflor.html"> Klikk her for å lese mer om oss! </a><p>
+        </div>
+
     </div>
 
 
-    <div class="clearfix"></div>
 
-    <div style="padding:6px;">
-
-        <p>Random tekst som ikke gir noe særlig mening på nåverende tidspunkt</p>
-
-    </div>
-
-
-</div>
-
-
-<footer id="footer">
+<!-- FOOTER  -->
+   <footer id="footer">
        <div id="logofooterdiv">
 
        </div>
@@ -139,8 +211,12 @@
        </div>
      </footer>
 
-<script src="js/style.js"></script>
 
-</body>
+<!-- JAVASCRIPT  -->
+    <script src="js/navbar.js"></script>
+    <script src="js/style.js"></script>
+    <script src="js/galleri.js"></script>
+
+
+  </body>
 </html>
-
