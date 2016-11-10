@@ -178,6 +178,10 @@ div.leftline_text{
   padding-bottom: 3%;
 }
 
+#vare_produkter_txt {
+  margin: auto;
+  width: 60%;
+  }
 
 #vare_produkter_txt p {
   text-align: center;
@@ -187,11 +191,13 @@ div.leftline_text{
   }
 
 #vare_produkter_txt a {
-  text-align: center;
   font-size: 25px;
   text-decoration: none;
   font-weight: bold; 
   cursor: pointer;
+  color: #2b7311;
+  margin-left: 27%;
+  margin-bottom: 4%;
   }  
 
 
