@@ -35,11 +35,11 @@
 <!-- GALLERI 1  -->
     <div class="white_galleri">
 
-        <div id="checkSeason" onChange="checkSeason()">
-            <input type="radio" id="sommer" name="season" value="Sommer"> Sommer <br>
-            <input type="radio" id="høst" name="season" value="Høst"> Høst <br>
-            <input type="radio" id="vinter" name="season" value="Vinter"> Vinter <br>
-            <input type="radio" id="vår" name="season" value="Vår"> Vår <br>
+        <div id="checkSeason">
+            <input type="checkbox" id="sommer" name="sommer" value="Sommer" onclick='checkSeason("sommer", "summer")' checked> Sommer <br>
+            <input type="checkbox" id="høst" name="høst" value="Høst" onclick='checkSeason("høst", "autumn")' checked> Høst <br>
+            <input type="checkbox" id="vinter" name="vinter" value="Vinter" onclick='checkSeason("vinter", "vinter")' checked> Vinter <br>
+            <input type="checkbox" id="vår" name="vår" value="Vår" onclick='checkSeason( "vår", "spring")' checked> Vår <br>
         </div>
 
         <h1 id="produkter_overskrift"> Alle våre blomster </h1>
