@@ -608,6 +608,7 @@ div.bildetekst {
   border-top: solid;
   border-bottom: solid;
   border-width: 5px 0px 10px 0px;
+  background-color: #001a00;
   }
 
 #div_slideshow{
