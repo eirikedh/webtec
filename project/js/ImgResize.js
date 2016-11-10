@@ -11,6 +11,9 @@ function imageResize(bilde){
   bilde2.style.top = "80px";
   bilde2.style.left = "200px";
   bilde2.style.opacity = 1
+  bilde2.style.borderStyle = "solid"
+  bilde2.style.borderWidth = "4px"
+  bilde2.style.borderColor = "#205F08"
 
   cover.addEventListener("click", function (){
     cover.style.display = "none";
