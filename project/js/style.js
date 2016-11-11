@@ -39,12 +39,12 @@ window.onclick = function(event) {
 
 /* -------------------- NAVBAR DROPDOWN ---------------------- */
 
-var navMenu = document.getElementById("nav");
+let navMenu = document.getElementById("nav");
 
 nav.onmouseover = function(e) {
-	var dropdowns = document.getElementsByClassName("dropdown-content");
-	for (var d = 0; d < dropdowns.length; d++) {
-		var openDropdown = dropdowns[d];
+	let dropdowns = document.getElementsByClassName("dropdown-content");
+	for (let d = 0; d < dropdowns.length; d++) {
+		let openDropdown = dropdowns[d];
 		if (!openDropdown.classList.contains('show')) {
 			if (e.target.className == "dropbtn") {
   				openDropdown.classList.add('show');
@@ -61,7 +61,7 @@ nav.onmouseover = function(e) {
 }
 
 function mouseOut(e) {
-	var remove = true;
+	let remove = true;
 	if (e.relatedTarget.parentElement != null) {
 		if (e.relatedTarget.parentElement.className == "dropdown-content show") {
 			remove = false;
@@ -69,9 +69,9 @@ function mouseOut(e) {
 	}
 	
 	if (remove) {
-		var dropdowns = document.getElementsByClassName("dropdown-content");
-		for (var d = 0; d < dropdowns.length; d++) {
-  			var openDropdown = dropdowns[d];
+		let dropdowns = document.getElementsByClassName("dropdown-content");
+		for (let d = 0; d < dropdowns.length; d++) {
+  			let openDropdown = dropdowns[d];
   			if (openDropdown.classList.contains('show')) {
 				openDropdown.classList.remove('show');
     				openDropdown.removeEventListener("mouseout", mouseOut);
