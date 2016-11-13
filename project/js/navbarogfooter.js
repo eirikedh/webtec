@@ -1,3 +1,11 @@
+/*
+FILE NAME: navbarogfooter.js
+WRITTEN BY: Even Kronen
+WHEN:  Oktober 2016
+PURPOSE:  Brukes for å enkelt gjenbruke navigasjonsbar og footer på hver HTML-side.
+*/
+
+
 var navdiv = document.getElementById("navdiv") //Bruker var istedenfor let, siden blant annet Safari og Firefox ikke støtter let her. 
 let nav = document.createElement("ul")
 nav.id ="nav"
