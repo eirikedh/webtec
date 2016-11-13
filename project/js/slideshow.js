@@ -1,3 +1,11 @@
+/*
+FILE NAME: imgResize.js
+WRITTEN BY:  Bjørn Tvedten
+WHEN:  Oktober 2016
+PURPOSE:  Lager et automatisk slideshow av bilder på siden galleri.html
+*/
+
+
 let bilder = 0;
 loop();
 
