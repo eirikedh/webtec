@@ -16,7 +16,9 @@ body{
 chrome og safari gjennom deres bruk av webkit. Dette bare for å forbedre utseende i de browserene.
 Koden for dette er inspirert av http://stackoverflow.com/questions/8897063/is-it-possible-to-target-chrome-by-html-or-media-query-only*/
 
+
 /* ------------------------------ BOXES ------------------------------ */
+
 .greenbox{
   height: 280px;
   width: 100%;
@@ -24,7 +26,7 @@ Koden for dette er inspirert av http://stackoverflow.com/questions/8897063/is-it
   color: #F8F8F8;
   margin-top: -0.3em;
   display:table;
-}
+  }
 
 .greenbox_small {
   height: 180px;
@@ -33,7 +35,7 @@ Koden for dette er inspirert av http://stackoverflow.com/questions/8897063/is-it
   color: #F8F8F8;
   margin-top: -0.3em;
   display:table;  
-}
+  }
 
 .greenbox_mini {
   height: 70px;
@@ -44,11 +46,12 @@ Koden for dette er inspirert av http://stackoverflow.com/questions/8897063/is-it
   left: 0;
   }
 
+/*
 .whitebox{
   background-color: #F8F8F8;
   color: #244D15;
   }
-
+*/
 
 .white_galleri{
   margin: auto;
@@ -75,7 +78,7 @@ Koden for dette er inspirert av http://stackoverflow.com/questions/8897063/is-it
   height: 42px;
   background-color: #0e2705;
   color: #525252;
-}
+  }
 
 
 
@@ -192,21 +195,6 @@ div.leftline_text{
   font-size: 24px;
   float: left;
   }
-
-#thflor_txt2 p {
-  font-size: 20px;
-  background-color: #245711;
-  border-radius: 50%;
-  border-color: #F8F8F8;
-  border-style: solid;
-  color: #F8F8F8;
-  margin-left: 57%;
-  margin-bottom: 5%;
-  height: 85px;
-  width: 150px;
-  padding-top: 65px;
-  }
-
 
 #vare_produkter_txt {
   margin: auto;
