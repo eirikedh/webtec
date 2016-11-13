@@ -23,8 +23,11 @@ h2 {
 h3 {
     font-family: "Trebuchet MS", Helvetica, sans-serif;
     text-align: center;
-}
+    }
 
+h4 {
+    text-align: center;
+}
 
 h6 {
     font-family: "Trebuchet MS", Helvetica, sans-serif;
@@ -42,6 +45,7 @@ p {
 
 hr {
     width: 100%;
+    margin-bottom: 5%;
 }
 
 img {
