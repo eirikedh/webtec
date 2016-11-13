@@ -52,8 +52,7 @@ li {
   }
 
 table {
-  margin-left: 5%;
-  margin-right: 5%;
+  margin: 5%;
 }
   
 .clientname {
@@ -70,7 +69,7 @@ table {
   }
    
 #foot {
-  text-align: left;
+  margin-top: 8%;
   }
 
 th,td{
