@@ -1,6 +1,6 @@
 /*
 FILE NAME: galleri.js
-WRITTEN BY:  Eirik Kopperud Edh og Even Kronen
+WRITTEN BY:  Eirik Kopperud Edh og Even Kronen Johansen
 WHEN:  Oktober 2016
 PURPOSE:  Brukes på vare_produkter.html for å sortere produktene etter årstid.
 */
