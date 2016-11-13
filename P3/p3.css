@@ -5,28 +5,24 @@ html {
    }
    body {
        background-color: #f2f2f2;
+       font-family: Georgia, Times;
    }
    h1 {
-       font-family: "Trebuchet MS", Helvetica, sans-serif; "Times New Roman", Times, serif;
        color:black;
        text-align: center;
    }
    h2 {
-       font-family: "Trebuchet MS", Helvetica, sans-serif; "Times New Roman", Times, serif;
        color:black;
        text-align: center;
    }
    h3 {
-       font-family: "Trebuchet MS", Helvetica, sans-serif; "Times New Roman", Times, serif;
        text-align: center;
    }
    h6 {
-       font-family: "Trebuchet MS", Helvetica, sans-serif; "Times New Roman", Times, serif;
        color: darkgrey;
        text-align: center;
    }
    p {
-       font-family: "Georgia", serif; "Verdana";
        line-height: 140%;
        margin-left: 5%;
        margin-right: 5%;
@@ -44,7 +40,6 @@ html {
        margin-right: 10%;
    }
    .clientname {
-       font-family: "Trebuchet MS", Helvetica, sans-serif; "Times New Roman", Times, serif;
        text-align: center;
        padding-bottom: 1px;
    }
@@ -61,4 +56,3 @@ html {
    th,td{
      border: 1px solid black;
    }
-
