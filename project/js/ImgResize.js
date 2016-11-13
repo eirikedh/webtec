@@ -1,6 +1,6 @@
 /*
 FILE NAME: imgResize.js
-WRITTEN BY:  Even Kronen
+WRITTEN BY:  Even Kronen Johansen
 WHEN:  Oktober 2016
 PURPOSE:  Brukes på galleri.html for å endre størrelsen på bildene når (forstørre) de klikkes på
 */
