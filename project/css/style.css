@@ -5,9 +5,16 @@ body{
   text-align: center;
   background-color: #F8F8F8;
   font-family: Georgia, Times;
-  zoom: 0.8;
 
 }
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+   body{
+     zoom: 0.8;
+   }
+}
+/*Grunnet at hverken firefox eller Internet Explorer fungere optimalt med zoom bruker vi i stedet media query for å velge
+chrome og safari gjennom deres bruk av webkit. Dette bare for å forbedre utseende i de browserene.
+Koden for dette er inspirert av http://stackoverflow.com/questions/8897063/is-it-possible-to-target-chrome-by-html-or-media-query-only*/
 
 /* ------------------------------ BOXES ------------------------------ */
 .greenbox{
