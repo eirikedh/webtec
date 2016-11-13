@@ -221,8 +221,7 @@ div.textdiv{
   width: 14%;
 }
 
-#nav li a,
-.dropbtn {
+#nav li a, .dropbtn {
   display: block;
   padding: 10px 16px;
   text-decoration: none;
@@ -246,21 +245,11 @@ div.textdiv{
   width: 14%;
   }
 
-/*
-#nav .dropdown-content a {
-  color: #F8F8F8;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  }
-*/
-
 #nav .show {
   display: block;
   }
 
   
-
 /* ------------------------------ LOGO ------------------------------ */
 
 #logo{
@@ -317,13 +306,12 @@ div.buttondiv button{
   margin-left: 8%;
   }
 
-
 #season-desc {
   text-align: center;
   font-size: 20px;
   padding-top: 1%;
   color: #244d15;
-}
+  }
 
 
 /* ------------------------------ VIDEO ------------------------------ */
@@ -338,7 +326,6 @@ div.buttondiv button{
   height: 315px;
   border: 0;
   }
-
 
 
 /* ------------------------------ KART ------------------------------ */
@@ -429,7 +416,7 @@ div.buttondiv button{
 
 
 /* ------------------------------ FOOTER ------------------------------ */
-#footer{
+#footer {
   height: 200px;
   width: 100%;
   background-color: #244D15;
@@ -438,12 +425,13 @@ div.buttondiv button{
   font-family: "Trebuchet MS", Arial
 }
 
-#footerlogo{
+#footerlogo {
   width: 500px;
   float: left;
   }
 
-#map1{
+/* map1 er de 3 første navigasjons-linkene til venstre */
+#map1 {
   left:50%;
   width: 20%;
   height: 156px;
@@ -452,7 +440,8 @@ div.buttondiv button{
   text-align: left;
   }
 
-#map2{
+/* map2 er de 3 andre navigasjons-linkene i midten */
+#map2 {
   left:60%;
   width: 20%;
   height: 136px;
@@ -462,15 +451,16 @@ div.buttondiv button{
   text-align: left;
   }
 
-#map2 ul{
+#map2 ul {
   padding-left: 60px;
   }
 
-#map2 li ul{
+#map2 li ul {
   padding-left: 20px;
   }
 
-#map3{
+/* map1 er de 3 siste navigasjons-linkene til høyre */
+#map3 {
   left:80%;
   width: 19%;
   height: 136px;
@@ -501,6 +491,7 @@ div.buttondiv button{
   text-shadow: 1px 1px black;
   }
 
+/* Teksten "Våre produkter" før garnteriet og utsalg-lenkene */
 #produkter{
   display: block;
   padding-bottom: 11px;
@@ -517,12 +508,13 @@ div.buttondiv button{
   }
 
 
+/* ------------------------------ GALLERI-BILDER ------------------------------ */
+
 div.galleri {
   margin-bottom: 4%;
   float: left;
   width: 20%;
   }
-
 
 div.galleri img {
   width: 80%;
@@ -606,7 +598,7 @@ div.bildetekst {
   }
   
 
-/* ------------------------------ Image Resize ------------------------------ */
+/* ------------------------------ IMAGE RESIZE ------------------------------ */
 #fullsidediv{
   opacity:0.9;
   background-color:#000;
@@ -634,6 +626,8 @@ div.bildetekst {
   border: none;
   overflow: hidden;
   }
+
+
 
 
 
