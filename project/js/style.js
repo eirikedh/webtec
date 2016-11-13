@@ -14,7 +14,7 @@ function buttonclick1() {
   	}
 
 function buttonclick2() {
-	window.location.href="vare_produkter.html";
+	window.location.href="thflor_produkter.html";
   	}
 
 function buttonclick3() {
