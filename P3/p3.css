@@ -50,6 +50,11 @@ li {
   margin-left: 10%;
   margin-right: 10%;
   }
+
+table {
+  margin-left: 5%;
+  margin-right: 5%;
+}
   
 .clientname {
   text-align: center;
