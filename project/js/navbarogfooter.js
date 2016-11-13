@@ -1,6 +1,6 @@
 /*
 FILE NAME: navbarogfooter.js
-WRITTEN BY: Even Kronen
+WRITTEN BY: Even Kronen Johansen
 WHEN:  Oktober 2016
 PURPOSE:  Brukes for å enkelt gjenbruke navigasjonsbar og footer på hver HTML-side.
 */
