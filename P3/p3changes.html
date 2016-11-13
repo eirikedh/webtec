@@ -45,7 +45,7 @@
 	      
       <h3> Endringer på hjemsiden:</h3>
 	<p> Fra P2 står det at dersom man blar nedover på hjemmesiden vil man finne et bilde som tilhører hvert av punktene i navigasjonsfeltet,
-	    dette er ikke tilfellet i vårt endelige resultat. Istedenfor har vi valgt at kun om oss-siden og gartneriets produkter-siden
+	    dette er ikke tilfellet i vårt endelige resultat. Istedenfor har vi valgt at kun om oss-siden og Th flor produkter-siden
 	    er tilgjengelge med hver sin knapp når man scroller nedover siden.  
 	 </p>	
 	      
@@ -123,84 +123,45 @@
            siden så menyen alltid er tilgjengelig. Når musepekeren er over en av meny-tekstene vil teksten får en understrek
            (den valgte meny-siden vil alltid ha en understrek)
 	      <li> Endret: Følger ikke skjermen. Understrek er ikke på den siden man besøker. </li>
-       
-        <li>Banner: Banneret vil være “Løn Garnteri” som man kan se på toppen av mockup bildet.</li>
-	      <li> Endret: Ingenting </li>
+
         <li>Footer: Denne vil inneholde logo i mindre størrelse, adresse, mail og telefonnummer samt linker til alle meny-sidene.</li>
-        <li>Bakgrunnsbilder: Vi vil bruke bilder fra klienten. Disse vil enten settes opp som enkeltbilder eller i sammensetninger av flere bilder. </li>
-        <li>Logo: Vår logo vil bli plassert øverst, midt på siden over menyen og nederst til venstre i footeren. Logoen består av Løn Gartner med en plante mellom navnene. </li>
-      </ul>
+	      <li> Endret: adresse, mail og telefonnummer har vi tatt bort fra footeren. </li>
+      
     </section>
 
     <br>
     <hr>
 
+  
     <section>
-      <h2> Minstekrav </h2>
-      <ol>
-        <li>Gallerifunksjon som gjør at når man ser bildene i et mindre format så kan man ha mouseClick for å se en størreversjon i et pop-up vindu</li>
-        <li>Vi har også et galleri der vi ser et større bilde, men det går en i en automatisk rullefunksjon. Dette vil vi bruke javascript for å gjennomføre. </li>
-        <li>Lage topmenyen i javascript siden den vil brukes på alle sidene i nettsiden. Dette vil gjøre at endringer i toppmenyen er lettere gjennomførbart
-           og at vi er sikker på likt utseende. Vi vil også lage en lignende funksjon for footeren. Den vil bli gjenbrukt på alle sidene. Noe som gjør at det
-           blir bedre å lage dette gjennom Javascript siden vi kan endre nettsiden raskere og mer effektivt.</li>
-        <li>En nedtrekksmeny under våre produkter der vi får opp to undervalg. “TH flor” og “Løn Gartneri” for å kunne velge mellom de to sidene.
-          Dette vil skapes i javascript.</li>
-      </ol>
-    </section>
-
-    <br>
-    <hr>
-
-    <section>
-      <h2> Plan </h2>
-
-	     <p> Vi vil ta i bruk den følgende mappestruktur for å skape og lagre våre filer, og vi vil ta i bruk en arbeidsfordelingsplan for å holde styr på
-          hvem som gjør hva i prosjektet og til hvilken tid. Dette vil gi oss en oversiktig og strukturert plan hvor det er lett for alle å jobbe med sin
-          del og samtidig vite hva de andre på gruppa jobber med.
-       </p>
-       <h3> Mappestruktur</h3>
-       <p>Alle de følgende filer vil bli samlet i en mappe lon_gartneri som vil bli laget i kode-fasen av prosjektet
-       </p>
+      <h3> Endringer i mappestrukter </h3>
        <p>
           Liste over filer og mapper:
        </p>
        <ul>
         <li>hjem.html</li>
-        <li>Gartneri_Produkter.html</li>
-        <li>TH_Produkter.html</li>
-        <li>TH_Flor.html</li>
-        <li>om_oss.html</li>
-        <li>Galleri.html</li>
-        <li>tips_og_triks.html</li>
-        <li>kontakt_oss.html</li>
+        <li>Gartneri_Produkter.html --> endret til: vare_produkter.html</li>
+        <li>TH_Produkter.html --> endret til: thflor_produkter.html</li>
+        <li>TH_Flor.html --> endret til: thflor.html</li>
+        <li>om_oss.html --> uendret</li>
+        <li>Galleri.html --> endret til: galleri.html</li>
+        <li>tips_og_triks.html --> uendret</li>
+        <li>kontakt_oss.html --> uendret</li>
 	<li>style
           <ul>
-            <li>stylesheet.css</li>
+            <li>stylesheet.css --> endret til: style.css</li>
           </ul>
 	</li>
-	<li>bilder
-          <ul>
-            <li>Bakgrunnsbilde1.png</li>
-            <li>Bakgrunnsbilde2.png</li>
-            <li>Bakgrunnsbilde3.png</li>
-            <li>Bakgrunnsbilde4.png</li>
-            <li>...</li>
-            <li>Bakgrunnsbilde10.png</li>
-            <li>headerLogo.png</li>
-            <li>bilde_1.png</li>
-            <li>bilde_2.png</li>
-            <li>bilde_3.png</li>
-            <li>bilde_4.png</li>
-            <li>...</li>
-            <li>bilde_5.png</li>
-          </ul>
+	<li>bilder --> endret til : img og img2(thflor-produkter-bilder)
+         
 	</li>
 	<li>scripts
           <ul>
-            <li>RullerendeGalleri.js</li>
-            <li>ImgResize.js</li>
-            <li>NedtrekksMeny.js</li>
-            <li>Header.js</li>
+            <li>RullerendeGalleri.js --> endret til: slideshow.js</li>
+            <li>ImgResize.js --> uendret</li>
+            <li>NedtrekksMeny.js --> style.js</li>
+            <li>Header.js --> navbarogfooter.js</li>
+	    <li> lagt til galleri.js </li>
           </ul>
 	</li>
 	
@@ -326,6 +287,6 @@
   <footer>
 	  <h6 id="foot"> <i>Bjørn, Eirik, Erling, Even og Halvard</i></h6>
   </footer>
-
+  ZOOOOOOOOM
  </body>
 </html>
