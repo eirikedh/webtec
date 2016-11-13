@@ -1,3 +1,11 @@
+/*
+FILE NAME: imgResize.js
+WRITTEN BY:  Even Kronen
+WHEN:  Oktober 2016
+PURPOSE:  Brukes på galleri.html for å endre størrelsen på bildene når (forstørre) de klikkes på
+*/
+
+
 function imageResize(bilde){
   let cover = document.getElementById("fullsidediv"); // For å skape bakgrunn så er det laget en div som dekker hele skjermen, som via css er satt til display "none"
   let resized = document.getElementById("ResizedImage") // For å sette bildet sentralt på skjermen, har vi laget en tom div der bildet vil sendes til. 
