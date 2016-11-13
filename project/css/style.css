@@ -122,16 +122,6 @@ div.textdiv{
   height: 60%;
   }  
 
-/*
-div.leftline_text{
-  font-size: 50px;
-  text-align: left;
-  margin-left: 10%;
-  margin-top: 4%;
-  float: left;
-  }
-*/
-
 .greenbox_mini h2 {
   padding-top: 5%;
   }
@@ -174,10 +164,6 @@ div.leftline_text{
   color: #205F08;
   font-size: 24px;
   }
-
-#thflor_txt2{
-  height: 200px;
-}
 
 #thflor_txt2 h4 {
   margin-top: 4%;
@@ -395,46 +381,51 @@ div.buttondiv button{
 
 /* ------------------------------ ÅPNINGSTIDER ------------------------------ */
 .open {
-    background-color: #245711;
-    color: white;
-    padding: 16px;
-    font-size: 22px;
-    border: none;
-    cursor: pointer;
-    height: 90px;
-    border-radius: 0%;
-}
+  background-color: #245711;
+  color: white;
+  padding: 16px;
+  font-size: 22px;
+  border: none;
+  cursor: pointer;
+  height: 90px;
+  border-radius: 0%;
+  }
 
 .open:hover, .open:focus {
-    background-color: #3e8e41;
-}
+  background-color: #3e8e41;
+  }
 
 .openTimeDiv {
-    position: relative;
-    display: inline-block;
-    margin-right: 25%;
-    margin-top: 2%;
-}
+  position: relative;
+  display: inline-block;
+  margin-right: 25%;
+  margin-top: 2%;
+  margin-bottom: 8%;  
+  }
 
 .open-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    overflow: auto;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-}
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  }
 
 .open-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-}
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  }
 
-.openTimeDiv a:hover {background-color: #f1f1f1}
+.openTimeDiv a:hover {
+  background-color: #f1f1f1
+  }
 
-.show {display:block;}
+.show {
+  display:block;
+  }
 
 
 /* ------------------------------ FOOTER ------------------------------ */
@@ -550,14 +541,7 @@ div.prodimg img {
   width: 90%;
   height: 300px;
   }
-/*
-div.rotert_prodimg img{
-  width: 90%;
-  height: 300px;
-  -webkit-transform:rotate(180deg);
-  transform:rotate(180deg);
-  }
-*/
+
 div.desc {
   padding: 15px;
   text-align: center;
