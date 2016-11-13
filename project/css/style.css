@@ -490,6 +490,21 @@ div.buttondiv button{
   border-left: thick solid #F8F8F8;
   }
 
+#dogtag{
+  left:68%;
+  height: 20px;
+  position: absolute;
+  padding: 0;
+  margin-top: 176px;
+  color: #9D9494
+}
+#dogtag h5{
+  height: 20px;
+  padding:0;
+  margin: 0;
+  font-size: 12px;
+}
+
 .footerlist ul{
   margin: 0
   }
