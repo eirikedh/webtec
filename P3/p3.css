@@ -10,59 +10,67 @@ body {
   text-align: center;
   }
 
+p {
+  line-height: 140%;
+  margin-left: 5%;
+  margin-right: 5%;
+  text-align: left;
+  }
+
 h1 {
   color:black;
   text-align: center;
   }
 
 h2 {
-       color:black;
-       text-align: center;
-}
+  color:black;
+  text-align: center;
+  }
 
 h3 {
-       text-align: center;
-   }
+  text-align: center;
+  color: #5a5a5a;
+  }
 
 h6 {
-       color: darkgrey;
-       text-align: center;
-   }
-
-p {
-       line-height: 140%;
-       margin-left: 5%;
-       margin-right: 5%;
-       text-align: left;
-   }
+  color: darkgrey;
+  text-align: center;
+  }
 
 hr {
-       width: 100%;
-       margin-bottom: 5%;
-   }
+  width: 100%;
+  margin-bottom: 5%;
+  }
 
-   ol > ol > li {
-       padding: 1%;
-   }
-   li {
-       padding: 2%;
-       margin-left: 10%;
-       margin-right: 10%;
-   }
-   .clientname {
-       text-align: center;
-       padding-bottom: 1px;
-   }
-   .title {
-       font-weight: bold;
-   }
-   #ulpreferences {
-       line-height: 150%;
-   }
-   #foot {
-       text-align: left;
-   }
+ol > ol > li {
+  padding: 1%;
+  }
+   
+li {
+  padding: 1%;
+  margin-left: 10%;
+  margin-right: 10%;
+  }
+  
+.clientname {
+  text-align: center;
+  padding-bottom: 1px;
+  }
+  
+.title {
+  font-weight: bold;
+  }
+  
+#ulpreferences {
+  line-height: 150%;
+  }
+   
+#foot {
+  text-align: left;
+  }
 
-   th,td{
-     border: 1px solid black;
-   }
+th,td{
+  border: 1px solid black;
+  }
+
+
