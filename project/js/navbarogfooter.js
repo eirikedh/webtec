@@ -2,7 +2,7 @@ var navdiv = document.getElementById("navdiv") //Bruker var istedenfor let, side
 let nav = document.createElement("ul")
 nav.id ="nav"
 
-function navbar(link,text){
+function navbar(link,text){   //lager og fyller listeelemente som settes inn i div. 
   let li = document.createElement("li")
   let a = document.createElement("a")
   a.href = link
@@ -15,7 +15,7 @@ function navbar(link,text){
 
 
 navbar("hjem.html", "Hjem")
-function vareprodukter(){
+function vareprodukter(){ //Egen kode nødvendig for Våre produkter siden den ikke følger stilen til de andre elementene i navbaren.
   let prodli = document.createElement("li")
   prodli.className = "dropdown"
   prodli.innerHTML = ' <a href="#" class="dropbtn">Våre Produkter</a>'
@@ -54,7 +54,7 @@ function createListElement(link,text, liste){
   ul.appendChild(li)
 }
 
-function createSpecialList(){
+function createSpecialList(){ //Igjen så skapes Våre Produkter på en annen måte siden dette er underlister og kan ikke gjenbruke tidligere kode.
   let endaul = document.getElementById("map2ul");
   let produktli = document.createElement("li")
   produktli.id = "produkter"
