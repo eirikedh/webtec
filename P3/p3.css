@@ -7,14 +7,12 @@ html {
 body {
   background-color: #f2f2f2;
   font-family: Georgia, Times;
-  text-align: center;
   }
 
 p {
   line-height: 140%;
   margin-left: 5%;
   margin-right: 5%;
-  text-align: left;
   }
 
 h1 {
