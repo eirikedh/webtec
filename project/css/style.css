@@ -62,13 +62,12 @@ body{
   height: 2315px;
   }
 
-#dogtag2 {
+#dogtag {
   margin: auto;
   width: 100%;
   height: 40px;
-  text-align: center;
   background-color: #123506;
-  color: #dadada;
+  color: #637363;
 }
 
 
@@ -221,6 +220,14 @@ div.leftline_text{
   cursor: pointer;
   color: #2b7311;
   }  
+
+#dogtag h5 {
+  margin: 0;
+  padding: 0.8%;
+  font-size: 10px;
+  text-align: right;
+  margin-right: 11%;
+  }
 
 
 /* ------------------------------ NAVIGASJONS-BAR ------------------------------ */
@@ -496,21 +503,6 @@ div.buttondiv button{
   text-align: left;
   border-left: thick solid #F8F8F8;
   }
-
-#dogtag{
-  left:68%;
-  height: 20px;
-  position: absolute;
-  padding: 0;
-  margin-top: 176px;
-  color: #9D9494
-}
-#dogtag h5{
-  height: 20px;
-  padding:0;
-  margin: 0;
-  font-size: 12px;
-}
 
 .footerlist ul{
   margin: 0
