@@ -1,3 +1,11 @@
+/*
+FILE NAME: galleri.js
+WRITTEN BY:  Eirik Kopperud Edh og Even Kronen
+WHEN:  Oktober 2016
+PURPOSE:  Brukes på vare_produkter.html for å sortere produktene etter årstid.
+*/
+
+
 function checkSeason(whichstring, whichnumber){
   let season = document.getElementById(whichstring) //Henter id fra sesong i checkboxen
   let seasonnumber = document.getElementsByClassName(whichnumber) //For å kunne endre alle bildene i samme class
