@@ -15,8 +15,10 @@ function buttonclick3() {
 	}
 
 
-/* -------------------- THFLOR-DROPDOWN ---------------------- */
+/* -------------------- ÅPNINGSTIDER-DROPDOWN ---------------------- */
 
+
+/* Kode inspirert og lånt fra http://www.w3schools.com/howto/howto_js_dropdown.asp */
 /* Når åpningstider-knappen klikkes, enten vises eller skjules dropdownen */
 function openTimes() {
 	document.getElementById("myOpentime").classList.toggle("show");
