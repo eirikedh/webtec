@@ -1,3 +1,10 @@
+/*
+FILE NAME: imgResize.js
+WRITTEN BY:  Eirik Kopperud Edh, Erling Moen
+WHEN:  Oktober 2016
+PURPOSE:  Brukes til runde navigasjonsknapper og til dropdown-meny
+*/
+
 
 /* -------------------- HJEMMESIDE-BUTTONS ---------------------- */
 
