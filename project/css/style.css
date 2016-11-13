@@ -109,11 +109,6 @@ Koden for dette er inspirert av http://stackoverflow.com/questions/8897063/is-it
 
 /* ------------------------------ TEXT ------------------------------ */
 
-/*div.textdiv h3 {
-  padding-top: 10%;
-  }
-*/
-
 div.textdiv{
   font-size: 22px;
   margin-left: 30%;
@@ -127,6 +122,7 @@ div.textdiv{
   height: 60%;
   }  
 
+/*
 div.leftline_text{
   font-size: 50px;
   text-align: left;
@@ -134,9 +130,15 @@ div.leftline_text{
   margin-top: 4%;
   float: left;
   }
+*/
 
 .greenbox_mini h2 {
   padding-top: 5%;
+  }
+
+.greenbox_small h3 {
+  font-size: 50px;
+  padding-top: 1%;  
   }
 
 .white_omoss{
@@ -163,11 +165,6 @@ div.leftline_text{
   font-size: 22px;
   color: #205F08;
   height:80%;
-  }
-
-.greenbox_small h3 {
-  font-size: 50px;
-  padding-top: 1%;  
   }
 
 #thflor_txt1 {
